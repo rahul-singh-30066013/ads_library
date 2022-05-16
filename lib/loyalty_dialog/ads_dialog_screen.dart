@@ -1,4 +1,5 @@
-import 'dart:_http';
+
+import 'dart:io';
 
 import 'package:ads_library/assets/json/ads_dialog_banner.dart';
 import 'package:ads_library/main.dart';
