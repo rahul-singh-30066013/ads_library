@@ -9,11 +9,11 @@ import 'package:ads_library/viewModel/base_view_model.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 class AdsViewModel extends ADBaseViewModel {
-  final databaseReference = FirebaseDatabase.instance.ref();
   ADResponseState adResponseState = ADResponseState.loading();
 
   ///It will used to fetch
   Future<void> fetchData(AdsType type) async {
+    final databaseReference = FirebaseDatabase.instance.ref();
     final snapshot = await databaseReference.child(type.name).once();
     final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
     print(response);
@@ -28,6 +28,7 @@ class AdsViewModel extends ADBaseViewModel {
   }
 
   Future<void> fetchDataFromFirebase(AdsType type) async {
+    final databaseReference = FirebaseDatabase.instance.ref();
     final snapshot = await databaseReference.child(type.name).once();
     final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
     switch(type){
