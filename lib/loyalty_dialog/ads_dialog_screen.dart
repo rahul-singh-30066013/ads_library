@@ -20,8 +20,8 @@ class AdsDialogScreen {
 
    Future<void> init(AdsType type) async {
     WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp();
     HttpOverrides.global = MyHttpOverrides();
+    await Firebase.initializeApp().then((value) => null);
     viewModel.fetchDataFromFirebase(type);
   }
 
