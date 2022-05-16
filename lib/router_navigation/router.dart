@@ -1,6 +1,5 @@
 import 'package:ads_library/ads_screen.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
-import 'package:ads_library/router_navigation/routes_constants.dart';
 import 'package:flutter/material.dart';
 ///which we can pass the arguments from one widget to other.
 ///and we can get that argument back from *[RouteSettings] itself
