@@ -1,0 +1,43 @@
+{
+  "elements": [
+    {
+      "uid": "1107ba94-7f31-4c0e-8a51-f1bebe2748c8",
+      "widgetType": "Dialog",
+      "fields": [
+        {
+          "widgetId": 1,
+          "title": "",
+          "offer": "",
+          "subTitle": "",
+          "actionTitle": {
+            "deeplink": ""
+          }
+        }
+      ]
+    },
+    {
+      "uid": "1107ba94-7f32-4c0e-8a51-f1bebe2748c8",
+      "widgetType": "Big Banner",
+      "fields": [
+        {
+          "widgetId": 1,
+          "title": "",
+          "offer": "",
+          "subTitle": "",
+          "actionTitle": {
+            "deeplink": ""
+          }
+        },
+        {
+          "widgetId": 2,
+          "title": "",
+          "offer": "",
+          "subTitle": "",
+          "actionTitle": {
+            "deeplink": ""
+          }
+        }
+      ]
+    }
+  ]
+}

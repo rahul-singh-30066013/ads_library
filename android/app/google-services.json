@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471893533350",
+    "firebase_url": "https://wallpapperadd.firebaseio.com",
+    "project_id": "wallpapperadd",
+    "storage_bucket": "wallpapperadd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471893533350:android:f4cfbda91209409d668a67",
+        "android_client_info": {
+          "package_name": "com.example.ads_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471893533350-1j9n32jejqe9oppvamj7k387s7sjhj0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIYVeAaeKPNNrHcUzLYkxGJC2uetXb3QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471893533350-1j9n32jejqe9oppvamj7k387s7sjhj0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
