@@ -46,9 +46,9 @@ class AdsDialogScreen {
         return Center(
           child: Container(
             height: context.heightOfScreen - 200,
-            width: context.widthOfScreen - context.k_36,
+            width: context.widthOfScreen - 36.0,
             child: const SizedBox.expand(child: FlutterLogo()),
-            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(context.k_24)),
+            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24.0)),
           ),
         );
       },
