@@ -1,16 +1,32 @@
+import 'dart:_http';
+
 import 'package:ads_library/assets/json/ads_dialog_banner.dart';
-import 'package:ads_library/extension/size_config_extention.dart';
+import 'package:ads_library/main.dart';
+import 'package:ads_library/router_navigation/routes_constants.dart';
+import 'package:ads_library/viewModel/ads_view_model.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 /// this class is used to load loyalty dialog
 class AdsDialogScreen {
-  static bool _isLoading = false;
-  static BuildContext? contextT;
+   bool _isLoading = false;
+   BuildContext? contextT;
+  AdsViewModel viewModel = AdsViewModel();
 
+  AdsDialogScreen({ AdsType type = AdsType.dialog}) {
+    init(type);
+  }
 
-  static void closeLoadingDialog(BuildContext? buildContext) {
+  void init(AdsType type) async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+    HttpOverrides.global = MyHttpOverrides();
+    viewModel.fetchDataFromFirebase(type);
+  }
+
+   void closeLoadingDialog(BuildContext? buildContext) {
     if (_isLoading) {
-      buildContext = contextT;
+      contextT = buildContext;
       if (buildContext != null) {
         Navigator.of(buildContext).pop();
       }
@@ -18,7 +34,8 @@ class AdsDialogScreen {
     }
   }
 
-  static void showDialogBanner(BuildContext context, DialogBanner dialogBanner) {
+   void showDialogBanner(BuildContext context) {
+    final DialogBanner dialogBanner = viewModel.adResponseState.data as DialogBanner;
     showGeneralDialog(
       context: context,
       barrierLabel: "Barrier",
@@ -27,17 +44,21 @@ class AdsDialogScreen {
       pageBuilder: (_, __, ___) {
         return Center(
           child: Container(
-            height: context.heightOfScreen - 200,
-            width: context.widthOfScreen - context.k_36,
-            child: Image.network(dialogBanner.fields?.first.imageLink ?? '',),
-            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(context.k_24)),
+            height: 400,
+            width: 300,
+            child: Image.network(
+              dialogBanner.fields?.first.imageLink ?? '',
+            ),
+            decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(24.0)),
           ),
         );
       },
     );
   }
 
-  static void showBigBanner(BuildContext context) {
+   void showBigBanner(BuildContext context) {
     showGeneralDialog(
       context: context,
       barrierLabel: "Barrier",
@@ -49,7 +70,8 @@ class AdsDialogScreen {
             height: 400,
             width: 200,
             child: const SizedBox.expand(child: FlutterLogo()),
-            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24)),
+            decoration: BoxDecoration(
+                color: Colors.white, borderRadius: BorderRadius.circular(24)),
           ),
         );
       },

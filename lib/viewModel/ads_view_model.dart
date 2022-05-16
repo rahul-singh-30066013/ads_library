@@ -26,4 +26,16 @@ class AdsViewModel extends ADBaseViewModel {
     }
     notifyListeners();
   }
+
+  Future<void> fetchDataFromFirebase(AdsType type) async {
+    final snapshot = await databaseReference.child(type.name).once();
+    final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
+    switch(type){
+      case AdsType.bigBanner : adResponseState = ADResponseState.completed(BigBanner.fromJson(response)); break;
+      case AdsType.smallBanner : adResponseState = ADResponseState.completed(SmallBanner.fromJson(response)); break;
+      case AdsType.dialog : adResponseState = ADResponseState.completed(DialogBanner.fromJson(response)); break;
+      case AdsType.singleBanner : adResponseState = ADResponseState.completed(SingleBanner.fromJson(response)); break;
+      default: adResponseState = ADResponseState.error('DialogBanner.fromJson(response)');
+    }
+  }
 }

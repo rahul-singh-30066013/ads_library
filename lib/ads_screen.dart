@@ -54,7 +54,7 @@ class _AdsScreenState extends State<AdsScreen> {
                                 primary: context.adColors.blueColor,
                                 shape: const StadiumBorder(),
                               ),
-                              onPressed: () => AdsDialogScreen.showDialogBanner(context, adsDialogBanner))
+                              onPressed: () => AdsDialogScreen().showDialogBanner(context))
                           .paddingBySide(left: context.k_20, right: context.k_20),
                     );
                   case AdsType.singleBanner:
@@ -113,7 +113,7 @@ class _AdsScreenState extends State<AdsScreen> {
                                             primary: context.adColors.blueColor,
                                             shape: const StadiumBorder(),
                                           ),
-                                          onPressed: () => AdsDialogScreen.showBigBanner(context))
+                                          onPressed: () => AdsDialogScreen().showBigBanner(context))
                                       //RaisedButton
                                     ], //<Widget>[]
                                   ), //Column
