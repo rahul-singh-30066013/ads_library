@@ -7,6 +7,7 @@ class AdsDialogScreen {
   static bool _isLoading = false;
   static BuildContext? contextT;
 
+
   static void closeLoadingDialog(BuildContext? buildContext) {
     if (_isLoading) {
       buildContext = contextT;
@@ -45,10 +46,10 @@ class AdsDialogScreen {
       pageBuilder: (_, __, ___) {
         return Center(
           child: Container(
-            height: context.heightOfScreen - 200,
-            width: context.widthOfScreen - 36.0,
+            height: 400,
+            width: 200,
             child: const SizedBox.expand(child: FlutterLogo()),
-            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24.0)),
+            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24)),
           ),
         );
       },
