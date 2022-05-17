@@ -1,4 +1,5 @@
 import 'package:ads_library/ads_screen.dart';
+import 'package:ads_library/first_route.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
 import 'package:flutter/material.dart';
 ///which we can pass the arguments from one widget to other.
@@ -31,6 +32,6 @@ MaterialPageRoute getRouteOnEmptyType(RouteSettings settings) {
 MaterialPageRoute getSplashRouteType(RouteSettings settings) {
   return MaterialPageRoute(
     settings: settings,
-    builder: (context) =>  const AdsScreen(type: routes.AdsType.bigBanner,),
+    builder: (context) =>  FirstRoute(type: routes.AdsType.bigBanner,),
   );
 }

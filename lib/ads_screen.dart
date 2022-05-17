@@ -29,7 +29,7 @@ class _AdsScreenState extends State<AdsScreen> {
   @override
   void initState() {
     super.initState();
-    viewModel.fetchData(widget.type);
+    //viewModel.fetchData(widget.type);
   }
 
   @override
