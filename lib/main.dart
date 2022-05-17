@@ -8,7 +8,12 @@ import 'package:ads_library/router_navigation/router.dart' as router;
 import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
 
 void main() {
-  runZonedGuarded<Future<void>>(() async {
+  init();
+}
+
+void init() {
+  runZonedGuarded<Future<void>>(
+    () async {
       WidgetsFlutterBinding.ensureInitialized();
       await Firebase.initializeApp();
       HttpOverrides.global = MyHttpOverrides();
@@ -48,10 +53,11 @@ class AdsMain extends StatelessWidget {
   }
 }
 
-class MyHttpOverrides extends HttpOverrides{
+class MyHttpOverrides extends HttpOverrides {
   @override
-  HttpClient createHttpClient(SecurityContext? context){
+  HttpClient createHttpClient(SecurityContext? context) {
     return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
   }
 }
