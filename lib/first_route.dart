@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:io';
+
 import 'package:ads_library/assets/json/ads_big_banner.dart';
 import 'package:ads_library/assets/json/ads_dialog_banner.dart';
 import 'package:ads_library/assets/json/ads_single_banner.dart';
@@ -8,6 +11,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
+import 'main.dart';
 import 'viewModel/ads_view_model.dart';
 
 class FirstRoute extends StatefulWidget {
@@ -24,11 +28,21 @@ class _FirstRouteState extends State<FirstRoute> {
 
   @override
   void initState() {
+
+
+
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
+    runZonedGuarded<Future<void>>(() async {
+      WidgetsFlutterBinding.ensureInitialized();
+      await Firebase.initializeApp();
+      HttpOverrides.global = MyHttpOverrides();
+    },
+          (error, stack) {},
+    );
     return FutureBuilder(
           future: getData(),
           builder: (context, AsyncSnapshot<DataSnapshot?> snapshot) {
@@ -140,11 +154,9 @@ class _FirstRouteState extends State<FirstRoute> {
 
   Future<DataSnapshot?> getData() async {
     DataSnapshot? dataSnapshot;
-    await Firebase.initializeApp().whenComplete(() async => {
-          await widget.viewModel.fetchDataFromFirebase(widget.type).then((value) {
-            dataSnapshot = value;
-          })
-        });
+    await widget.viewModel.fetchDataFromFirebase(widget.type).then((value) {
+      dataSnapshot = value;
+    });
     return dataSnapshot;
   }
 }
