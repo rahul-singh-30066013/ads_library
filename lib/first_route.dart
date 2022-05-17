@@ -31,7 +31,7 @@ class _FirstRouteState extends State<FirstRoute> {
   Widget build(BuildContext context) {
     return FutureBuilder(
           future: getData(),
-          builder: (context, AsyncSnapshot<DataSnapshot> snapshot) {
+          builder: (context, AsyncSnapshot<DataSnapshot?> snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
               final value = widget.viewModel;
               switch (widget.type) {
@@ -138,9 +138,13 @@ class _FirstRouteState extends State<FirstRoute> {
         );
   }
 
-
-  Future<DataSnapshot> getData() async {
-    await Firebase.initializeApp();
-    return widget.viewModel.fetchDataFromFirebase(widget.type);
+  Future<DataSnapshot?> getData() async {
+    DataSnapshot? dataSnapshot;
+    await Firebase.initializeApp().whenComplete(() async => {
+          await widget.viewModel.fetchDataFromFirebase(widget.type).then((value) {
+            dataSnapshot = value;
+          })
+        });
+    return dataSnapshot;
   }
 }
