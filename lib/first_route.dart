@@ -36,10 +36,10 @@ class _FirstRouteState extends State<FirstRoute> {
               final value = widget.viewModel;
               switch (widget.type) {
                 case AdsType.dialog:
-                  final DialogBanner adsDialogBanner = value.adResponseState.data as DialogBanner;
+                  final DialogBanner? adsDialogBanner = value.adResponseState.data as DialogBanner?;
                   return Center(
                     child: ElevatedButton(
-                        child:  Text(adsDialogBanner.widgetType ?? 'Open Dialog'),
+                        child:  Text(adsDialogBanner?.widgetType ?? 'Open Dialog'),
                         style: ElevatedButton.styleFrom(
                           primary: Colors.blue,
                           shape: const StadiumBorder(),
@@ -47,20 +47,20 @@ class _FirstRouteState extends State<FirstRoute> {
                         onPressed: () => AdsDialogScreen().showBigBanner(context)),
                   );
                 case AdsType.singleBanner:
-                  final SingleBanner singleBanner = value.adResponseState.data as SingleBanner;
+                  final SingleBanner? singleBanner = value.adResponseState.data as SingleBanner?;
                   return Container(
                       margin: const EdgeInsets.all(8),
                       height: 54.0,
                       width: 220,
                       color: Colors.blue[100],
-                      child: Image.network(singleBanner.fields?.first.imageLink ?? '', fit: BoxFit.fill,));
+                      child: Image.network(singleBanner?.fields?.first.imageLink ?? '', fit: BoxFit.fill,));
                 case AdsType.bigBanner:
-                  final BigBanner bigBanner = value.adResponseState.data as BigBanner;
+                  final BigBanner? bigBanner = value.adResponseState.data as BigBanner?;
                   return SizedBox(
                     height: 240.0,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
-                      children: List.generate(bigBanner.fields?.length ?? 0, (int index) {
+                      children: List.generate(bigBanner?.fields?.length ?? 5, (int index) {
                         return Container(
                           width: 220,
                           height: 240.0,
@@ -80,10 +80,10 @@ class _FirstRouteState extends State<FirstRoute> {
                                     const SizedBox(
                                       height: 6,
                                     ),
-                                    Image.network(bigBanner.fields?[index].imageLink ?? ''),
+                                    Image.network(bigBanner?.fields?[index].imageLink ?? ''),
                                     //Image.network
                                     Text(
-                                      bigBanner.fields?[index].title ?? '',
+                                      bigBanner?.fields?[index].title ?? '',
                                       style: const TextStyle(
                                           color: Colors.green,
                                           fontSize: 20,
@@ -112,18 +112,18 @@ class _FirstRouteState extends State<FirstRoute> {
                     ),
                   );
                 case AdsType.smallBanner:
-                  final SmallBanner smallBanner = value.adResponseState.data as SmallBanner;
+                  final SmallBanner? smallBanner = value.adResponseState.data as SmallBanner?;
                   return SizedBox(
                     height: 150.0,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
-                      children: List.generate(smallBanner.fields?.length ?? 0, (int index) {
+                      children: List.generate(smallBanner?.fields?.length ?? 0, (int index) {
                         return Card(
                           color: Colors.blue[index * 100],
                           child: SizedBox(
                             width: 100.0,
                             height: 100.0,
-                            child: Image.network(smallBanner.fields?[index].imageLink ?? ''),
+                            child: Image.network(smallBanner?.fields?[index].imageLink ?? ''),
                           ),
                         );
                       }),
