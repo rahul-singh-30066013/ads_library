@@ -12,7 +12,7 @@ class AdsViewModel extends ADBaseViewModel {
   ADResponseState adResponseState = ADResponseState.loading();
 
   ///It will used to fetch
-  Future<DataSnapshot> fetchData(AdsType type) async {
+  Future<void> fetchData(AdsType type) async {
     final databaseReference = FirebaseDatabase.instance.ref();
     final snapshot = await databaseReference.child(type.name).once();
     final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
@@ -24,11 +24,10 @@ class AdsViewModel extends ADBaseViewModel {
       case AdsType.singleBanner : adResponseState = ADResponseState.completed(SingleBanner.fromJson(response)); break;
       default: adResponseState = ADResponseState.error('DialogBanner.fromJson(response)');
     }
-    return snapshot.snapshot;
-    // notifyListeners();
+    notifyListeners();
   }
 
-  Future<void> fetchDataFromFirebase(AdsType type) async {
+  Future<DataSnapshot> fetchDataFromFirebase(AdsType type) async {
     final databaseReference = FirebaseDatabase.instance.ref();
     final snapshot = await databaseReference.child(type.name).once();
     final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
@@ -39,5 +38,6 @@ class AdsViewModel extends ADBaseViewModel {
       case AdsType.singleBanner : adResponseState = ADResponseState.completed(SingleBanner.fromJson(response)); break;
       default: adResponseState = ADResponseState.error('DialogBanner.fromJson(response)');
     }
+    return snapshot.snapshot;
   }
 }
