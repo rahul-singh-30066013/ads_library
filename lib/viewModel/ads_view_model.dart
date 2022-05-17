@@ -31,6 +31,7 @@ class AdsViewModel extends ADBaseViewModel {
     final databaseReference = FirebaseDatabase.instance.ref();
     final snapshot = await databaseReference.child(type.name).once();
     final Map<String, dynamic> response = Map<String, dynamic>.from(snapshot.snapshot.value as Map<dynamic, dynamic>);
+    print(response);
     switch(type){
       case AdsType.bigBanner : adResponseState = ADResponseState.completed(BigBanner.fromJson(response)); break;
       case AdsType.smallBanner : adResponseState = ADResponseState.completed(SmallBanner.fromJson(response)); break;
