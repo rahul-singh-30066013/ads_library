@@ -14,17 +14,12 @@ class AdsDialogScreen {
    BuildContext? contextT;
   AdsViewModel viewModel = AdsViewModel();
 
-   AdsDialogScreen({ AdsType type = AdsType.dialog}) {
-    init(type);
-  }
 
   Future<void> init(AdsType type) async {
     WidgetsFlutterBinding.ensureInitialized();
     HttpOverrides.global = MyHttpOverrides();
-    await Future.delayed(const Duration(seconds: 5), (){
-      Firebase.initializeApp().then((value) => {
-        viewModel.fetchDataFromFirebase(type)
-      });
+    await Firebase.initializeApp().then((value) => {
+       viewModel.fetchDataFromFirebase(type)
     });
   }
 
