@@ -24,29 +24,24 @@ class _FirstRouteState extends State<FirstRoute> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: FutureBuilder(
+    return FutureBuilder(
           future: getData(),
           builder: (context, AsyncSnapshot<DataSnapshot> snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
-              return Column(
-                children: [
-                  Container(
-                    height: 27,
+              return
+                  Center(
                     child: Text(
                       "Name: ${snapshot.data}",
                       overflow: TextOverflow.fade,
-                      style: TextStyle(fontSize: 20),
+                      style: const TextStyle(fontSize: 20, color: Colors.white),
                     ),
-                  ),
-                ],
-              );
+                  );
             } else if (snapshot.connectionState == ConnectionState.none) {
-              return Text("No data");
+              return const Text("No data");
             }
-            return CircularProgressIndicator();
+            return const SizedBox(height : 50, width: 50 ,child: CircularProgressIndicator());
           },
-        ));
+        );
   }
 
 
