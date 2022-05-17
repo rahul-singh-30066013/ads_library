@@ -33,7 +33,7 @@ class _FirstRouteState extends State<FirstRoute> {
                     child: Text(
                       "Name: ${snapshot.data}",
                       overflow: TextOverflow.fade,
-                      style: const TextStyle(fontSize: 20, color: Colors.white),
+                      style: const TextStyle(fontSize: 20, color: Colors.blue),
                     ),
                   );
             } else if (snapshot.connectionState == ConnectionState.none) {
