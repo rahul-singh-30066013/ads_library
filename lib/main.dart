@@ -17,6 +17,7 @@ void init() {
       WidgetsFlutterBinding.ensureInitialized();
       await Firebase.initializeApp();
       HttpOverrides.global = MyHttpOverrides();
+      print('object');
 
       runApp(
         LayoutBuilder(
