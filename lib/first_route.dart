@@ -118,7 +118,7 @@ class _FirstRouteState extends State<FirstRoute> {
                       height: 150.0,
                       child: ListView(
                         scrollDirection: Axis.horizontal,
-                        children: List.generate(smallBanner?.fields?.length ?? 0, (int index) {
+                        children: List.generate(smallBanner?.fields?.length ?? 5, (int index) {
                           return Card(
                             color: Colors.blue[index * 100],
                             child: SizedBox(

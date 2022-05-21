@@ -6,7 +6,6 @@ import 'package:ads_library/assets/json/ads_small_banner.dart';
 import 'package:ads_library/response/response_state.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart';
 import 'package:ads_library/viewModel/base_view_model.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
 class AdsViewModel extends ADBaseViewModel {
@@ -14,9 +13,7 @@ class AdsViewModel extends ADBaseViewModel {
 
   ///It will used to fetch
   Future<void> fetchData(AdsType type) async {
-
-      final jsonString = await rootBundle.loadString('lib/assets/json/popup.json');
-      final parsed = json.decode(jsonString);
+     final parsed = json.decode(popupJsonFile);
 
 
     // final databaseReference = FirebaseDatabase.instance.ref();
