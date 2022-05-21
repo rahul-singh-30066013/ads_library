@@ -42,11 +42,10 @@ class _FirstRouteState extends State<FirstRoute> {
                     child: ElevatedButton(
                         child:  Text(adsDialogBanner?.widgetType ?? 'Open Dialog'),
                         style: ElevatedButton.styleFrom(
-                          primary: context.adColors.blueColor,
+                          primary:Colors.blue,
                           shape: const StadiumBorder(),
                         ),
-                        onPressed: () => AdsDialogScreen().showDialogBanner(context, adsDialogBanner))
-                        .paddingBySide(left: context.k_20, right: context.k_20),
+                        onPressed: () => AdsDialogScreen().showDialogBanner(context, adsDialogBanner)),
                   );
                 case AdsType.singleBanner:
                   final SingleBanner? singleBanner = value.adResponseState.data as SingleBanner?;
