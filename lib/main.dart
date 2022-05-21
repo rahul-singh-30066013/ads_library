@@ -9,6 +9,14 @@ import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
 
 void main() {
   init();
+  runApp(
+    LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        ADSizeConfig.init(constraints);
+        return const AdsMain();
+      },
+    ),
+  );
 }
 
 void init() {
@@ -17,15 +25,6 @@ void init() {
       WidgetsFlutterBinding.ensureInitialized();
       await Firebase.initializeApp();
       HttpOverrides.global = MyHttpOverrides();
-
-      runApp(
-        LayoutBuilder(
-          builder: (BuildContext context, BoxConstraints constraints) {
-            ADSizeConfig.init(constraints);
-            return const AdsMain();
-          },
-        ),
-      );
     },
     (error, stack) {},
   );

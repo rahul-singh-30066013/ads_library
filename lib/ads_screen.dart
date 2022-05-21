@@ -54,7 +54,7 @@ class _AdsScreenState extends State<AdsScreen> {
                                 primary: context.adColors.blueColor,
                                 shape: const StadiumBorder(),
                               ),
-                              onPressed: () => AdsDialogScreen().showDialogBanner(context))
+                              onPressed: () => AdsDialogScreen().showDialogBanner(context, adsDialogBanner))
                           .paddingBySide(left: context.k_20, right: context.k_20),
                     );
                   case AdsType.singleBanner:

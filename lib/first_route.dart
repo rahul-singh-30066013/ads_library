@@ -2,6 +2,9 @@ import 'package:ads_library/assets/json/ads_big_banner.dart';
 import 'package:ads_library/assets/json/ads_dialog_banner.dart';
 import 'package:ads_library/assets/json/ads_single_banner.dart';
 import 'package:ads_library/assets/json/ads_small_banner.dart';
+import 'package:ads_library/extension/color_scheme_extention.dart';
+import 'package:ads_library/extension/size_config_extention.dart';
+import 'package:ads_library/extension/widget_extention.dart';
 import 'package:ads_library/loyalty_dialog/ads_dialog_screen.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart';
 import 'package:flutter/material.dart';
@@ -39,10 +42,11 @@ class _FirstRouteState extends State<FirstRoute> {
                     child: ElevatedButton(
                         child:  Text(adsDialogBanner?.widgetType ?? 'Open Dialog'),
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.blue,
+                          primary: context.adColors.blueColor,
                           shape: const StadiumBorder(),
                         ),
-                        onPressed: () => AdsDialogScreen().showBigBanner(context)),
+                        onPressed: () => AdsDialogScreen().showDialogBanner(context, adsDialogBanner))
+                        .paddingBySide(left: context.k_20, right: context.k_20),
                   );
                 case AdsType.singleBanner:
                   final SingleBanner? singleBanner = value.adResponseState.data as SingleBanner?;

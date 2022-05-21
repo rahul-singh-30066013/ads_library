@@ -1,11 +1,8 @@
 
-import 'dart:io';
 
 import 'package:ads_library/assets/json/ads_dialog_banner.dart';
-import 'package:ads_library/main.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart';
 import 'package:ads_library/viewModel/ads_view_model.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 /// this class is used to load loyalty dialog
@@ -13,11 +10,6 @@ class AdsDialogScreen {
    bool _isLoading = false;
    BuildContext? contextT;
   AdsViewModel viewModel = AdsViewModel();
-
-
-  Future<void> init(AdsType type) async {
-
-  }
 
    void closeLoadingDialog(BuildContext? buildContext) {
     if (_isLoading) {
@@ -29,8 +21,7 @@ class AdsDialogScreen {
     }
   }
 
-   void showDialogBanner(BuildContext context) {
-    final DialogBanner dialogBanner = viewModel.adResponseState.data as DialogBanner;
+   void showDialogBanner(BuildContext context, DialogBanner? adsDialogBanner) {
     showGeneralDialog(
       context: context,
       barrierLabel: "Barrier",
@@ -42,7 +33,7 @@ class AdsDialogScreen {
             height: 400,
             width: 300,
             child: Image.network(
-              dialogBanner.fields?.first.imageLink ?? '',
+              adsDialogBanner?.fields?.first.imageLink ?? '',
             ),
             decoration: BoxDecoration(
                 color: Colors.white,
