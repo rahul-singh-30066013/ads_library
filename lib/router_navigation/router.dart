@@ -1,4 +1,3 @@
-import 'package:ads_library/ads_screen.dart';
 import 'package:ads_library/first_route.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
 import 'package:flutter/material.dart';

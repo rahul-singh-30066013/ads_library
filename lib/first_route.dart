@@ -4,7 +4,6 @@ import 'package:ads_library/assets/json/ads_single_banner.dart';
 import 'package:ads_library/assets/json/ads_small_banner.dart';
 import 'package:ads_library/loyalty_dialog/ads_dialog_screen.dart';
 import 'package:ads_library/router_navigation/routes_constants.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 import 'viewModel/ads_view_model.dart';
@@ -30,7 +29,7 @@ class _FirstRouteState extends State<FirstRoute> {
   Widget build(BuildContext context) {
     return FutureBuilder(
           future: getData(),
-          builder: (context, AsyncSnapshot<DataSnapshot> snapshot) {
+          builder: (context, AsyncSnapshot<void> snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
               final value = widget.viewModel;
               switch (widget.type) {
@@ -55,77 +54,81 @@ class _FirstRouteState extends State<FirstRoute> {
                       child: Image.network(singleBanner?.fields?.first.imageLink ?? '', fit: BoxFit.fill,));
                 case AdsType.bigBanner:
                   final BigBanner? bigBanner = value.adResponseState.data as BigBanner?;
-                  return SizedBox(
-                    height: 240.0,
-                    child: ListView(
-                      scrollDirection: Axis.horizontal,
-                      children: List.generate(bigBanner?.fields?.length ?? 5, (int index) {
-                        return Container(
-                          width: 220,
-                          height: 240.0,
-                          margin: const EdgeInsets.all(10.0),
-                          child: ClipRect(
-                            child: Banner(
-                              message: "20% off !!",
-                              location: BannerLocation.bottomStart,
-                              color: Colors.red,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                    color: Colors.blue[200],
-                                    borderRadius:
-                                    BorderRadius.circular(8)),
-                                child: Column(
-                                  children: <Widget>[
-                                    const SizedBox(
-                                      height: 6,
-                                    ),
-                                    Image.network('https://console.firebase.google.com/project/wallpapperadd/database/wallpapperadd/data/bigBanner/fields/0/imageLink'),
-                                    //Image.network
-                                    Text(
-                                      bigBanner?.fields?[index].title ?? '',
-                                      style: const TextStyle(
-                                          color: Colors.green,
-                                          fontSize: 20,
-                                          fontWeight:
-                                          FontWeight.bold), //TextStyle
-                                    ),
-                                    //Text
-                                    const SizedBox(
-                                      height: 10,
-                                    ),
-                                    ElevatedButton(
-                                        child: const Text('Book Now'),
-                                        style: ElevatedButton.styleFrom(
-                                          primary: Colors.blue,
-                                          shape: const StadiumBorder(),
-                                        ),
-                                        onPressed: () => AdsDialogScreen().showBigBanner(context))
-                                    //RaisedButton
-                                  ], //<Widget>[]
-                                ), //Column
-                              ), //Padding
-                            ), //Container
-                          ), //Banner
-                        );
-                      }),
+                  return Center(
+                    child: SizedBox(
+                      height: 275.0,
+                      child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: List.generate(bigBanner?.fields?.length ?? 5, (int index) {
+                          return Container(
+                            width: 220,
+                            height: 240.0,
+                            margin: const EdgeInsets.all(10.0),
+                            child: ClipRect(
+                              child: Banner(
+                                message: "20% off !!",
+                                location: BannerLocation.bottomStart,
+                                color: Colors.red,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Colors.blue[200],
+                                      borderRadius:
+                                      BorderRadius.circular(8)),
+                                  child: Column(
+                                    children: <Widget>[
+                                      const SizedBox(
+                                        height: 6,
+                                      ),
+                                      Image.network(bigBanner?.fields?[index].imageLink ?? ''),
+                                      //Image.network
+                                      Text(
+                                        bigBanner?.fields?[index].title ?? '',
+                                        style: const TextStyle(
+                                            color: Colors.green,
+                                            fontSize: 20,
+                                            fontWeight:
+                                            FontWeight.bold), //TextStyle
+                                      ),
+                                      //Text
+                                      const SizedBox(
+                                        height: 10,
+                                      ),
+                                      ElevatedButton(
+                                          child: const Text('Book Now'),
+                                          style: ElevatedButton.styleFrom(
+                                            primary: Colors.blue,
+                                            shape: const StadiumBorder(),
+                                          ),
+                                          onPressed: () => AdsDialogScreen().showBigBanner(context))
+                                      //RaisedButton
+                                    ], //<Widget>[]
+                                  ), //Column
+                                ), //Padding
+                              ), //Container
+                            ), //Banner
+                          );
+                        }),
+                      ),
                     ),
                   );
                 case AdsType.smallBanner:
                   final SmallBanner? smallBanner = value.adResponseState.data as SmallBanner?;
-                  return SizedBox(
-                    height: 150.0,
-                    child: ListView(
-                      scrollDirection: Axis.horizontal,
-                      children: List.generate(smallBanner?.fields?.length ?? 0, (int index) {
-                        return Card(
-                          color: Colors.blue[index * 100],
-                          child: SizedBox(
-                            width: 100.0,
-                            height: 100.0,
-                            child: Image.network(smallBanner?.fields?[index].imageLink ?? ''),
-                          ),
-                        );
-                      }),
+                  return Center(
+                    child: SizedBox(
+                      height: 150.0,
+                      child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: List.generate(smallBanner?.fields?.length ?? 0, (int index) {
+                          return Card(
+                            color: Colors.blue[index * 100],
+                            child: SizedBox(
+                              width: 100.0,
+                              height: 100.0,
+                              child: Image.network(smallBanner?.fields?[index].imageLink ?? ''),
+                            ),
+                          );
+                        }),
+                      ),
                     ),
                   );
               }
@@ -137,8 +140,7 @@ class _FirstRouteState extends State<FirstRoute> {
         );
   }
 
-
-  Future<DataSnapshot> getData() async {
-    return widget.viewModel.fetchDataFromFirebase(widget.type);
+  Future<void> getData() async {
+    return widget.viewModel.fetchData(widget.type);
   }
 }
