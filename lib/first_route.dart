@@ -51,7 +51,7 @@ class _FirstRouteState extends State<FirstRoute> {
                       height: 54.0,
                       width: 220,
                       color: Colors.blue[100],
-                      child: Image.network(singleBanner?.fields?.first.imageLink ?? '', fit: BoxFit.fill,));
+                      child: Image.network(singleBanner?.fields?.first.imageLink ?? ''));
                 case AdsType.bigBanner:
                   final BigBanner? bigBanner = value.adResponseState.data as BigBanner?;
                   return Center(
