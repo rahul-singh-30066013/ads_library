@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:ads_library/extension/size_config_extention.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:ads_library/router_navigation/router.dart' as router;
 import 'package:ads_library/router_navigation/routes_constants.dart' as routes;
@@ -15,7 +14,7 @@ void init() {
   runZonedGuarded<Future<void>>(
     () async {
       WidgetsFlutterBinding.ensureInitialized();
-      await Firebase.initializeApp();
+      // await Firebase.initializeApp();
       HttpOverrides.global = MyHttpOverrides();
 
       runApp(

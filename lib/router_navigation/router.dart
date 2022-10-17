@@ -31,7 +31,7 @@ MaterialPageRoute getRouteOnEmptyType(RouteSettings settings) {
 MaterialPageRoute getSplashRouteType(RouteSettings settings) {
   return MaterialPageRoute(
     settings: settings,
-    builder: (context) =>  FirstRoute(type: routes.AdsType.singleBanner,),
+    builder: (context) =>  FirstRoute(type: routes.AdsType.bigBanner,),
   );
 }
 
