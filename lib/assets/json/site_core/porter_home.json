@@ -1,0 +1,1094 @@
+{
+  "name": null,
+  "path": "main",
+  "elements": [
+    {
+      "uid": "9bd19d20-a34b-4d0c-9e51-d695049bebb5",
+      "componentName": "HomeCarousal",
+      "dataSource": "{2CBE8B8D-035A-46F1-9814-7FA4B8A06CF1}",
+      "params": {
+        "widget": "{B8F56AB1-4788-4714-906B-9F01DD7DB9EA}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 29,
+          "widgetType": "carousel_1dot2",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 1.33,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 10,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": {
+            "enlargeCenterPage": "",
+            "enableInfiniteScroll": "",
+            "autoPlay": "",
+            "viewportFraction": ""
+          },
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/Web/Web_Pranaam_1.jpg",
+              "description": "Step in like a VIP",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/svpia-ahmedabad-airport/pranaam-services/book",
+              "appCtaLink": null,
+              "deepLink": null,
+              "subTitle": "Get greeted by a dedicated officer to take care of your every need",
+              "materialGroup": null,
+              "category": null,
+              "subCategory": null,
+              "brand": null,
+              "skuCode": null,
+              "storeType": null,
+              "restricted": false,
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/Mobile/Mobile_Pranaam_1.jpg",
+              "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/MWeb/Mweb_Pranaam_1.jpg",
+              "thumbnailImage": null,
+              "bannerCondition": null,
+              "ctaText": "Book Now",
+              "uniqueId": null,
+              "ctaUrl": null,
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/Web/Web_Pranaam_2.jpg",
+              "description": "Get pampered with luxury",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/svpia-ahmedabad-airport/pranaam-services/how-it-works",
+              "appCtaLink": null,
+              "deepLink": null,
+              "subTitle": "Enjoy specially curated services for a world-class experience",
+              "materialGroup": null,
+              "category": null,
+              "subCategory": null,
+              "brand": null,
+              "skuCode": null,
+              "storeType": null,
+              "restricted": false,
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/Mobile/Mobile_Pranaam_2.jpg",
+              "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HomeCarousal/MWeb/Mweb_Pranaam_2.jpg",
+              "thumbnailImage": null,
+              "bannerCondition": null,
+              "ctaText": "How it Works",
+              "uniqueId": null,
+              "ctaUrl": null,
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "4a2b38c8-963c-4196-9564-8df779934926",
+      "componentName": "ServiceBookingForm",
+      "dataSource": "",
+      "params": {
+        "widget": "{46817A2E-AE9D-4B2D-9BC1-CDD039D5ED4F}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 30,
+          "widgetType": "serviceBookingForm",
+          "title": "",
+          "subTitle": "How it works",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 1.5,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 20.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 10,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "pranaamPackage": {
+                "title": "",
+                "cards": {
+                  "items": [
+
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "1757c8d2-9344-42c4-8eeb-7fa74d711eed",
+      "componentName": "HowItWorkSteps",
+      "dataSource": "{AE1498F2-8D49-4E62-884C-9ED8F57E4E79}",
+      "params": {
+        "widget": "{CED7A559-AF8F-4646-92AB-689CD2D23E38}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 0,
+          "widgetType": "howItWorkSteps",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.72,
+          "gridColumn": 0,
+          "aspectRatio": 1.08,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 0.0,
+            "bottom": 26.0,
+            "top": 30.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 10,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "tabContent": [
+                {
+                  "title": "Domestic Arrival",
+                  "cards": [
+                    {
+                      "title": "Warm Welcome",
+                      "desc": "Pranaam Officer meets and greets you at the meeting point.",
+                      "value": "STEP 1",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-1.jpg",
+                      "alt": "Domestic Arrival Warm Welcome",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step-1.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-1.jpg",
+                      "webImageAlt": "Domestic Arrival Warm Welcome",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Baggage Collection",
+                      "desc": "You are escorted to baggage belt and porter collects the baggage.",
+                      "value": "STEP 2",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-2.jpg",
+                      "alt": "Domestic Arrival Baggage Collection",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step-2.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-2.jpg",
+                      "webImageAlt": "Domestic Arrival Baggage Collection",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Shopping Assistance",
+                      "desc": "You are assisted with shopping at the airport.",
+                      "value": "STEP 3",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step3_Mweb.jpg",
+                      "alt": "Domestic Arrival Shopping Assisitance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step3_Mweb.jpg",
+                      "mobileImageAlt": "Domestic Arrival Shopping Assisitance",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step3_Mweb.jpg",
+                      "webImageAlt": "Domestic Arrival Shopping Assisitance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Escort Till Parking",
+                      "desc": "Pranaam Officer escorts you to your vehicle and takes a sign off from you.",
+                      "value": "STEP 4",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step4-Change.jpg",
+                      "alt": "Domestic Arrival Escort till Parking",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step4-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step4-Change.jpg",
+                      "webImageAlt": "Domestic Arrival Escort till Parking",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    }
+                  ]
+                },
+                {
+                  "title": "International Arrival",
+                  "cards": [
+                    {
+                      "title": "Warm Welcome",
+                      "desc": "Pranaam Officer meets and greets you at the meeting point.",
+                      "value": "STEP 1",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-1.jpg",
+                      "alt": "International Arrival Warm Welcome",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/MWeb/Step-1.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-1.jpg",
+                      "webImageAlt": "International Arrival Warm Welcome",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Immigration Guidance",
+                      "desc": "The Pranaam Officer guides you through the immigration process.",
+                      "value": "STEP 2",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-2.jpg",
+                      "alt": "International Arrival Immigration Guidance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/MWeb/Step-2.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-2.jpg",
+                      "webImageAlt": "International Arrival Immigration Guidance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Duty Free Assistance",
+                      "desc": "You are assisted with shopping at Duty Free.",
+                      "value": "STEP 3",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-3.jpg",
+                      "alt": "International Arrival Duty Free Assistance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/MWeb/Step-3.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-3.jpg",
+                      "webImageAlt": "International Arrival Duty Free Assistance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Baggage Claim",
+                      "desc": "You are escorted to baggage belt and porter collects the baggage.",
+                      "value": "STEP 4",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-4.jpg",
+                      "alt": "International Arrival Baggage Claim",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/MWeb/Step-4.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step-4.jpg",
+                      "webImageAlt": "International Arrival Baggage Claim",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Escort till Parking",
+                      "desc": "Pranaam Officer escorts you to your vehicle and takes a sign off from you.",
+                      "value": "STEP 5",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step4-Change.jpg",
+                      "alt": "International Arrival Escort till Parking",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/MWeb/Step4-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Arrival/WEB/Step4-Change.jpg",
+                      "webImageAlt": "International Arrival Escort till Parking",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    }
+                  ]
+                },
+                {
+                  "title": "Domestic Departure",
+                  "cards": [
+                    {
+                      "title": "Warm Welcome",
+                      "desc": "Pranaam Officer meets and greets you at the meeting point.",
+                      "value": "STEP 1",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step1-Change.jpg",
+                      "alt": "Domestic Departure Warm Welcome",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Mweb/Step1-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step1-Change.jpg",
+                      "webImageAlt": "Domestic Departure Warm Welcome",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Baggage Check-in Assistance",
+                      "desc": "You are escorted to the check-in counter along with your baggage.",
+                      "value": "STEP 2",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step-2.jpg",
+                      "alt": "Domestic Departure Baggage Check in Assistance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Mweb/Step-2.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step-2.jpg",
+                      "webImageAlt": "Domestic Departure Baggage Check in Assistance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Security Check Assistance",
+                      "desc": "You are assisted for your expedited passage through security.",
+                      "value": "STEP 3",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-3.jpg",
+                      "alt": " Domestic Departure Security Check Assistance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step-3.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-3.jpg",
+                      "webImageAlt": " Domestic Departure Security Check Assistance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Direction to Lounge",
+                      "desc": "Pranaam Officer escorts you to the lounge as per your booking.",
+                      "value": "STEP 4",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step3-Change.jpg",
+                      "alt": "Domestic Departure Direction to Lounge",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Mweb/Step3-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step3-Change.jpg",
+                      "webImageAlt": "Domestic Departure Direction to Lounge",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Boarding Preference",
+                      "desc": "You are given a choice to board as per your preference.",
+                      "value": "STEP 5",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step-4.jpg",
+                      "alt": "Domestic Departure Boarding Preference",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Mweb/Step-4.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step-4.jpg",
+                      "webImageAlt": "Domestic Departure Boarding Preference",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    }
+                  ]
+                },
+                {
+                  "title": "International Departure",
+                  "cards": [
+                    {
+                      "title": "Warm Welcome",
+                      "desc": "Pranaam Officer meets and greets you at the meeting point.",
+                      "value": "STEP 1",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step1-Change.jpg",
+                      "alt": "",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-Mweb/Step1-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step1-Change.jpg",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Baggage Check-in Assistance",
+                      "desc": "You are escorted to check-in counter along with porter service.",
+                      "value": "STEP 2",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-2.jpg",
+                      "alt": "",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-Mweb/Step-2.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-2.jpg",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Security Check Assistance",
+                      "desc": "You are assisted for your expedited passage through security.",
+                      "value": "STEP 3",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-3.jpg",
+                      "alt": " Domestic Departure Security Check Assistance",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-MWeb/Step-3.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Arrival-Web/Step-3.jpg",
+                      "webImageAlt": " Domestic Departure Security Check Assistance",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Immigration Guidance",
+                      "desc": "Pranaam Officer guides through the immigration process.",
+                      "value": "STEP 4",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-3.jpg",
+                      "alt": "",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-Mweb/Step-3.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-3.jpg",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Duty Free Assistance",
+                      "desc": "You are assisted with shopping at Duty Free.",
+                      "value": "STEP 5",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-4.jpg",
+                      "alt": "",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-Mweb/Step-4.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-4.jpg",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Direction to Lounge",
+                      "desc": "Pranaam Officer escorts you to the lounge as per your booking.",
+                      "value": "STEP 6",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step3-Change.jpg",
+                      "alt": "Domestic Departure Direction to Lounge",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Mweb/Step3-ChangeMweb.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Domestic-Departure-Web/Step3-Change.jpg",
+                      "webImageAlt": "Domestic Departure Direction to Lounge",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    },
+                    {
+                      "title": "Boarding Preference",
+                      "desc": "You are given a choice to board as per your preference.",
+                      "value": "STEP 7",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-6.jpg",
+                      "alt": "",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-Mweb/Step-6.jpg",
+                      "mobileImageAlt": "",
+                      "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/International-Departure-web/Step-6.jpg",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": ""
+                    }
+                  ]
+                }
+              ],
+              "title": "How It Works",
+              "btnText": "Know More",
+              "btnUrl": "https://web-dev.adanidigitallabs.com/svpia-ahmedabad-airport/pranaam-services/how-it-works",
+              "appbtnText": "Know More",
+              "appbtnUrl": "https://web-dev.adanidigitallabs.com/pranaam-services/how-it-works?isApp=true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "25c32ada-2cbd-4272-b865-0a448d468782",
+      "componentName": "Packages",
+      "dataSource": "{83855EA0-4303-4486-89B0-D2D72E746C99}",
+      "params": {
+        "widget": "{705C62F3-43FE-42D2-8601-D43F95D3CC3A}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 88,
+          "widgetType": "pranaamPackage",
+          "title": "Pranaam Package That Suits You Best",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.7,
+          "gridColumn": 4,
+          "aspectRatio": 1.33,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 8.0,
+            "right": 8.0,
+            "bottom": 30.0,
+            "top": 20.0
+          },
+          "subItemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 30.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 10,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "pranaamPackage": {
+                "title": "Pranaam Package That Suits You Best",
+                "cards": {
+                  "items": [
+                    {
+                      "id": "180",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Elite_Web.png",
+                      "alt": "",
+                      "title": "Elite",
+                      "cardDesc": "Specially curated services for guests that gives them a world-class airport & travel experience",
+                      "finalPrice": "2500",
+                      "btnText": "Book Now",
+                      "btnUrl": "https://web-dev.adanidigitallabs.com/svpia-ahmedabad-airport/pranaam-services/book",
+                      "btnVariant": "outline-secondary",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Elite_Mweb.png",
+                      "mobileImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Elite_Mweb.png",
+                      "webImage": "",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": "",
+                      "isRecommended": true
+                    },
+                    {
+                      "id": "175",
+                      "src": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Platinum_web.png",
+                      "alt": "",
+                      "title": "Platinum",
+                      "cardDesc": "Travel in exceptional comfort with complete airport assistance at best prices",
+                      "finalPrice": "1400",
+                      "btnText": "Book Now",
+                      "btnUrl": "https://web-dev.adanidigitallabs.com/svpia-ahmedabad-airport/pranaam-services/book",
+                      "btnVariant": "outline-secondary",
+                      "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Platinum_Mweb.png",
+                      "mobileImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/Packages/Platinum_Mweb.png",
+                      "webImage": "",
+                      "webImageAlt": "",
+                      "thumbnailImage": "",
+                      "thumbnailImageAlt": "",
+                      "isRecommended": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "9b6feb12-62d0-4bd8-bf76-f9601b385702",
+      "componentName": "HowItWorks",
+      "dataSource": "{9E9A194D-7D78-4F6B-95C3-C0751EFA25FA}",
+      "params": {
+        "widget": "{9F8C3E3C-BA69-40B1-9560-5787EA8B7F2F}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 91,
+          "widgetType": "videoCard",
+          "title": "How it Works?",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.8,
+          "gridColumn": 4,
+          "aspectRatio": 1.0,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 48.0,
+            "top": 52.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 100,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "Experience the Comfort",
+              "urlMp4": "https://www.youtube.com/embed/LBwEo9aP3No",
+              "urlOgg": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/Pranaam_Sardar_Vallabhbhai_Patel_International_Airport.mp4",
+              "posterImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/VideohowItWorks.png",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/thumbnail_image.png",
+              "mobileImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/thumbnail_image.png",
+              "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/VideohowItWorks.png",
+              "webImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/VideohowItWorks.png",
+              "thumbnailImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/thumbnail_image.png",
+              "thumbnailImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Pranaam/HowItWorks/thumbnail_image.png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "181765ae-958f-4596-9a77-b35721ea0d9f",
+      "componentName": "FooterIllustration",
+      "dataSource": "{5ACDF28C-5569-43CF-B403-F341F75AADB7}",
+      "params": {
+        "widget": "{97BC1522-29F4-40CC-BB19-5CE51F5D660D}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 0,
+          "widgetType": "footerIllustration",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "About Pranaam Meet and Greet Service",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistratiomMweb.png",
+              "mobileImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistratiomMweb.png",
+              "webImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistrationWeb.png",
+              "webImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistrationWeb.png",
+              "thumbnailImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/HomeBanner/Banner_02.jpg",
+              "thumbnailImageAlt": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/HomeBanner/Banner_02.jpg",
+              "btnText": "",
+              "btnUrl": "https://web-dev.adanidigitallabs.com/Pranaam/AirportPackages",
+              "desc": [
+                "Pranaam Meet and Greet Service is designed to provide guests with a seamless and stress-free travel experience. It mirrors the vision to provide the highest service standards while ensuring a unique and memorable experience for passengers at our airports. ",
+                "Pranaam Service simplifies your journey right from the time you arrive at the airport, regardless of the airline or class of travel. It offers customised packages and an array of services to meet your requirements including professional assistance to corporate clients, warmth and care to families and elderly guests, and a safe transit to young guests while making your journey hassle-free."
+              ],
+              "appDesc": [
+                "Pranaam Meet and Greet Service is designed to provide guests with a seamless and stress-free travel experience. It mirrors the vision to provide the highest service standards while ensuring a unique and memorable experience for passengers at our airports. ",
+                "Pranaam Service simplifies your journey right from the time you arrive at the airport, regardless of the airline or class of travel. It offers customised packages and an array of services to meet your requirements including professional assistance to corporate clients, warmth and care to families and elderly guests, and a safe transit to young guests while making your journey hassle-free."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "8a49d73a-f664-48bd-bd42-f8b84a3cd9c8",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{D41BFE4B-8020-46C1-922E-783B802196E3}",
+      "params": {
+        "Widget": "{695F2FD3-E3B1-47C9-B43F-92EB6435A50C}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "Help & Support",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Helpv2.svg",
+              "btnText": "",
+              "description": "Contact us for any queries, service requests or complaints",
+              "ctaUrl": "",
+              "uniqueId": "1001",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": {
+                  "name": "contactnumber",
+                  "title": "Contact Number",
+                  "richText": "+91 9833301321"
+                },
+                "email": {
+                  "name": "contactemail",
+                  "title": "Email",
+                  "richText": "feedback.bom@adani.com"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "dd6ce0ff-e6b0-4d0a-ac99-972453804ab3",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{FF4A9899-DA71-4D76-A8D5-8F20C64B762B}",
+      "params": {
+        "Widget": "{695F2FD3-E3B1-47C9-B43F-92EB6435A50C}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "Your Feedback",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/feedbackv2.svg",
+              "btnText": "",
+              "description": "Do you have any suggestions? We’d love to hear from you!",
+              "ctaUrl": "",
+              "uniqueId": "1002",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Helpv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "017f4e93-bd36-42de-a0d9-194ac048125a",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{C9C3BBEA-91FC-4051-BAA2-74734A56B752}",
+      "params": {
+        "Widget": "{695F2FD3-E3B1-47C9-B43F-92EB6435A50C}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "Rate Us!",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "btnText": "",
+              "description": "Love our App? Spread the word by rating us",
+              "ctaUrl": "",
+              "uniqueId": "1003",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/feedbackv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "8809d660-e1a0-43ad-a52b-834605da66ae",
+      "componentName": "MapJSON",
+      "dataSource": "{44AF1114-0A1F-40BD-921E-0E8FB1A9CDA9}",
+      "params": {
+        "Widget": "{F80F0D29-D12E-4A52-AD9D-161006EDDE8B}",
+        "CacheClearingBehavior": "Clear on publish"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "flightBanner",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.832,
+          "borderRadius": 0.0,
+          "backgroundColor": "",
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 60.0,
+            "top": 60.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "tabConfiguration": null,
+          "gradientConfiguration": null,
+          "gridConfiguration": null,
+          "subItemColors": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistratiomMweb.png",
+              "btnText": "",
+              "description": "",
+              "ctaUrl": "",
+              "uniqueId": "",
+              "mobileImage": "https://cms-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/IllistratiomMweb.png",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

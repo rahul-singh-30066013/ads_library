@@ -1,0 +1,56 @@
+{
+    "totalAmount":"8333",
+    "rewardPoints":"72",
+    "adaniBalance":"15000",
+    "price_list": [
+
+        {
+            "title": "Total MRP",
+            "price": "₹5200",
+            "priceTypeColor": "black"
+
+          },
+
+        {
+            "title": "Discount on MRP",
+            "price": "₹500",
+            "priceTypeColor": "green"
+
+        },
+        {
+            "title": "Coupon Discount",
+            "price": "Apply Coupon",
+            "priceTypeColor": "blue"
+
+        }
+
+
+      ],
+      "payment_options": [
+        {
+          "text": "Pay by Cash",
+          "images":"lib/assets/images/duty_free/paytm.png"
+
+        },
+        {
+          "text": "Credit/Debit Card",
+          "images":"lib/assets/images/duty_free/credit_card.png"
+        },
+        {
+          "text": "PhonePay/ Google Pay/ BHIM UPI"  ,
+          "images":"lib/assets/images/duty_free/bhim_upi.png"
+        }  ,
+        {
+          "text": "PAYTM / MobiQuick / Other Wallets"  ,
+          "images":"lib/assets/images/duty_free/paytm.png"
+        },
+        {
+          "text": "Net Banking",
+          "images":"lib/assets/images/duty_free/net_banking.png"
+        },
+        {
+          "text": "EMI",
+          "images":"lib/assets/images/duty_free/paytm.png"
+        }
+      ]
+    }

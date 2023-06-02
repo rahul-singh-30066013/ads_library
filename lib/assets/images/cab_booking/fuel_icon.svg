@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  - Copyright (c) 2023 .
+  - All rights reserved.
+  - Adani Digital Labs Confidential Information
+  -->
+
+<svg height="18px" version="1.1" viewBox="0 0 18 18" width="18px"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>ic_fuel</title>
+    <g fill="none" fill-rule="evenodd" id="App" stroke="none" stroke-width="1">
+        <g id="5.5---Choose-Cab---srp--view-details-App"
+            transform="translate(-16.000000, -644.000000)">
+            <g id="Group-17" transform="translate(0.000000, 309.000000)">
+                <g id="Group-45" transform="translate(15.000000, 263.000000)">
+                    <g id="Group-38" transform="translate(1.000000, 41.000000)">
+                        <g id="ic_fuel" transform="translate(0.000000, 31.000000)">
+                            <rect fill="#FFFFFF" height="18" id="Rectangle" opacity="0" width="18"
+                                x="0" y="0" />
+                            <path
+                                d="M16.02,3.33 C15.57,2.97 15.03,2.43 14.31,1.8 L14.31,0.99 C14.31,0.45 13.95,0.09 13.41,0.09 L2.43,0.09 C1.89,0.09 1.53,0.45 1.53,0.99 L1.53,16.2 L0.9,16.2 C0.36,16.2 0,16.56 0,17.1 C0,17.64 0.36,18 0.9,18 L2.34,18 L13.32,18 L14.76,18 C15.3,18 15.66,17.64 15.66,17.1 C15.66,16.56 15.3,16.2 14.76,16.2 L14.22,16.2 L14.22,14.13 C14.49,14.22 14.85,14.31 15.12,14.31 C16.65,14.31 17.82,13.14 17.82,11.7 L17.82,6.12 C18,5.04 17.46,4.59 16.02,3.33 Z M3.33,16.11 L3.33,1.89 L12.51,1.89 L12.51,16.2 L3.33,16.2 L3.33,16.11 Z M16.2,11.61 C16.2,12.06 15.75,12.42 15.3,12.42 C14.76,12.42 14.4,12.06 14.4,11.61 L14.4,4.23 C14.58,4.41 14.76,4.59 14.94,4.68 C16.11,5.76 16.2,5.85 16.2,6.12 L16.2,11.61 Z M7.92,6.21 C7.92,6.21 9.9,8.64 9.9,9.72 C9.9,10.8 9,11.7 7.92,11.7 C6.84,11.7 5.94,10.8 5.94,9.72 C5.94,8.64 7.92,6.21 7.92,6.21 Z"
+                                fill="#555555" id="Shape" />
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "name": null,
+  "path": "main",
+  "elements": [
+    {
+      "uid": "8038557e-18c7-4d3a-a433-32c0097f9f0d",
+      "componentName": "TermsAndConditions",
+      "dataSource": "{DA94B3DB-A346-485C-935A-D8EB58506144}",
+      "params": {
+
+      },
+      "fields": {
+        "contentItems": [
+          {
+            "name": "contactemail",
+            "title": "Email",
+            "richText": "reservations.pranaam@adani.com"
+          },
+          {
+            "name": "contactnumber",
+            "title": "Contact Number",
+            "richText": "8879992391|8879992392"
+          },
+          {
+            "name": "termsandconditions",
+            "title": "Terms and Conditions",
+            "richText": "<p>Lorem ipsum These Terms &amp; Conditions (&ldquo;T&amp;C&rdquo;) are an electronic record in the form of an electronic contract formed under the Information Technology Act, 2000 and the rules made thereunder and the amended provisions pertaining to electronic documents / records in various statutes as amended by the Information Technology Act, 2000. These T&amp;C do not require any physical, electronic, or digital signature.</p>\n<p>&nbsp;</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

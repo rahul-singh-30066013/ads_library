@@ -1,0 +1,362 @@
+{
+  "uid": "133ad3c3-31f3-407c-b85e-dfb79be0c1a4",
+  "componentName": "PaymentOptions",
+  "dataSource": "{3FE5B9A4-2F20-4713-B06C-8DC37DFEA200}",
+  "params": {},
+  "fields": {
+    "choosePaymentHeading": "Choose Payment Options",
+    "payText": "Pay",
+    "hostname": "",
+    "paymentTypeList": [
+      {
+        "type": "CARD",
+        "iconSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/debit_card.svg",
+        "iconBig": "/-/media/Project/Adani/Payment_icons/debit_card.svg",
+        "name": "Credit / Debit Card",
+        "options": [
+          {
+            "code": "Diner",
+            "name": "Diner",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/diners-club.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/diners-club.svg",
+            "regexForCardNumber": "",
+            "cvvLength": "3",
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "Master",
+            "name": "Master",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/master-card.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/master-card.svg",
+            "regexForCardNumber": "r'^(5[1-5][0-9]{14}|2(22[1-9][0-9]{12}|2[3-9][0-9]{13}|[3-6][0-9]{14}|7[0-1][0-9]{13}|720[0-9]{12}))$",
+            "cvvLength": "3",
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "Amex",
+            "name": "Amex",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/americanexpress-logo.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/american-express.svg",
+            "regexForCardNumber": "",
+            "cvvLength": "4",
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "Visa",
+            "name": "Visa",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/visa-logo.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/visa.svg",
+            "regexForCardNumber": "r'^4[0-9]{15}(?:[0-9]{3})?$",
+            "cvvLength": "3",
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "Rupay",
+            "name": "Rupay",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/rupay-logo.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/rupay.svg",
+            "regexForCardNumber": "",
+            "cvvLength": "3",
+            "isNameMandatory": false,
+            "isShowInPage": false
+          }
+        ],
+        "description": ""
+      },
+      {
+        "type": "UPI",
+        "iconSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/upi.svg",
+        "iconBig": "/-/media/Project/Adani/Payment_icons/upi.svg",
+        "name": "UPI",
+        "options": [
+          {
+            "code": "PHONEPE",
+            "name": "PhonePe",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-phonePe.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/upi-phonePe.svg",
+            "regexForCardNumber": null,
+            "cvvLength": null,
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "GOOGLE",
+            "name": "Google",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-googlePe.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/upi-gPay.svg",
+            "regexForCardNumber": null,
+            "cvvLength": null,
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "FREECHRG",
+            "name": "Freecharge",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-freecharge.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/upi-freecharge.svg",
+            "regexForCardNumber": null,
+            "cvvLength": null,
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "PAYTM",
+            "name": "Paytm",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-paytm.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/upi-paytm.svg",
+            "regexForCardNumber": null,
+            "cvvLength": null,
+            "isNameMandatory": false,
+            "isShowInPage": false
+          },
+          {
+            "code": "OTHERS",
+            "name": "Others",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-upi.svg",
+            "largeIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/upi-upi.svg",
+            "regexForCardNumber": null,
+            "cvvLength": null,
+            "isNameMandatory": false,
+            "isShowInPage": false
+          }
+        ],
+        "description": ""
+      },
+      {
+        "type": "WALLET",
+        "iconSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/wallet.svg",
+        "iconBig": "/-/media/Project/Adani/Payment_icons/wallet.svg",
+        "name": "Wallet",
+        "options": [
+          {
+            "code": "MOBIKWIK",
+            "name": "Mobikwik",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg"
+          },
+          {
+            "code": "PAYTM",
+            "name": "Paytm",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/paytm_logo.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg"
+          },
+          {
+            "code": "FREECHRG",
+            "name": "FreeCharge",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/payments_banklogos/freecharge_logo.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/freecharge_logo.svg"
+          },
+          {
+            "code": "AMAZONPAY",
+            "name": "Amazon Pay",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/wallet-amazonPay.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg"
+          },
+          {
+            "code": "PAYZAPP",
+            "name": "Payzapp",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/wallet-payzapp.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg"
+          },
+          {
+            "code": "PHONEPE",
+            "name": "PhonePe",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/UPI-phonePe.svg",
+            "walletLargeIcon": "/-/media/Project/Adani/payments_banklogos/mobikwik_logo.svg"
+          }
+        ],
+        "description": ""
+      },
+
+      {
+        "type": "NETBANKING",
+        "iconSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/netbanking.svg",
+        "iconBig": "/-/media/Project/Adani/Payment_icons/netbanking.svg",
+        "name": "Net Banking",
+        "options": [
+          {
+            "code": "NB1004",
+            "name": "AXIS",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/netbank-axis.svg",
+            "iconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": true
+          },
+          {
+            "code": "NB1007",
+            "name": "ICICI",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/netbank-icici.svg",
+            "bankIconLarge": "http://www.logotaglines.com/wp-content/uploads/2016/08/ICICI-Logo.png",
+            "viewOtherBanksLabel": "View Other Bank",
+            "searchBankLabel": "Search Bank",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": true
+          },
+          {
+            "code": "NB1015",
+            "name": "SBI",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/netbank-sbi.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": true
+          },
+          {
+            "code": "NB1015",
+            "name": "HDFC",
+            "isActive": true,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/netbank-hdfc.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": true
+          },
+
+          {
+            "code": "NB1015",
+            "name": "Airtel Payments Bank",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-airtel.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "Andhra Bank",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-andhra.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "Bank of India",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-bank-india.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "Central Bank Of India",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-central.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "IDBI Bank",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-idbi.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "IndusInd Bank",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-indusind.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          },
+          {
+            "code": "NB1015",
+            "name": "Punjab National Bank",
+            "isActive": false,
+            "smallIcon": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/otherBank-punjab.svg",
+            "bankIconLarge": "/-/media/Project/Adani/payments_banklogos/axisbank_logo.svg",
+            "viewOtherBanksLabel": "View Other Banks",
+            "searchBankLabel": "Search Banks",
+            "unavailableTxtMsg": "Currently not available. Kindly use other payment option",
+            "serverSlowTxtMsg": "Server slow. Try another bank",
+            "isShowInPage": false
+          }
+
+
+
+        ],
+        "description": ""
+      }
+    ],
+    "promoCards": [
+      {
+        "heading": "What is CVV Number?",
+        "description": "It’s a three digit number at the back of your card",
+        "imageSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/cvv-common.svg",
+        "imageLarge": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/cvv-common.svg"
+      },
+      {
+        "heading": "Have an American Express Card?",
+        "description": "It’s a four digit number on the front,just above your card number ",
+        "imageSmall": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/App/american-express.svg",
+        "imageLarge": "https://cms-dev.adanidigitallabs.com/-/media/Project/Adani/Payment_icons/Assets/Website/cvv-american-express.svg"
+      }
+    ],
+    "securityCardDetail": {
+      "securityCardHeading": "Improve your Card Security",
+      "securityCardDesc": "As per RBI guidelines, your card will be saved with VISA for added protection.",
+      "securityImageSmall": "/-/media/Project/Adani/Payment_icons/improveyourcardsecurity.svg",
+      "securityImageBig": "/-/media/Project/Adani/Payment_icons/improveyourcardsecurity.svg",
+      "securityPoint1": "Continue enjoying the saved card experience",
+      "securityPoint2": "Protect your card from unauthorized use.",
+      "securePayLink": "",
+      "askLaterLink": ""
+    }
+  }
+}

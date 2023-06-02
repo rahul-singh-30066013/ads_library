@@ -1,0 +1,52 @@
+{
+  "name": null,
+  "path": "main",
+  "elements": [
+    {
+      "uid": "49e8ff76-6ab3-4e9c-b623-63879cdb1a87",
+      "componentName": "Cancellation",
+      "dataSource": "{24FAED8C-0359-4CFA-95AE-172D3DF2128E}",
+      "params": {
+
+      },
+      "fields": {
+        "header": [
+          {
+            "title": "Sr. no.",
+            "value": "1"
+          },
+          {
+            "title": "Cancellation of Services",
+            "value": "2"
+          },
+          {
+            "title": "Cancellation Charges",
+            "value": "3"
+          }
+        ],
+        "rows": [
+          {
+            "srNo": "1",
+            "services": "72 hours prior to the scheduled meeting time",
+            "charges": "3% of the Booking Amount"
+          },
+          {
+            "srNo": "2",
+            "services": "Between 72 to 48 hours prior to scheduled meeting time",
+            "charges": "10% of the Booking Amount"
+          },
+          {
+            "srNo": "3",
+            "services": "Between 48 to 24 hours prior to the scheduled meeting time",
+            "charges": "50% of the Booking Amount"
+          },
+          {
+            "srNo": "4",
+            "services": "Less than 24 hours",
+            "charges": "100% of the Booking Amount"
+          }
+        ]
+      }
+    }
+  ]
+}

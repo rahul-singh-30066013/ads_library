@@ -1,0 +1,38 @@
+{
+  "error": false,
+  "msg": "flags images retrieved",
+  "data": [
+    {
+      "name": "Albania",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
+      "iso2": "+355",
+      "iso3": "ALB"
+    },
+    {
+      "name": "Angola",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg",
+      "iso2": "+244",
+      "iso3": "AGO"
+    },
+    {
+      "name": "Anguilla",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Anguilla.svg",
+      "iso2": "+1",
+      "iso3": "AIA"
+    },
+
+    {
+      "name": "China",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+      "iso2": "+86",
+      "iso3": "CHN"
+    },
+
+    {
+      "name": "India",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+      "iso2": "+91",
+      "iso3": "IND"
+    }
+  ]
+}

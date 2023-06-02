@@ -1,0 +1,119 @@
+{
+  "airportShop":{
+    "airportShopCategory": {
+      "widgetType": "horizontalScrollTile",
+      "gridColumn": 2,
+      "aspectRatio": 1.4,
+      "title": "",
+      "subTitle": "",
+      "items": [
+        {
+          "actionId": 0,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/beauty.png",
+          "title": "Accessories"
+        },
+        {
+          "actionId": 1,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/fashion.png",
+          "title": "Apparel"
+        },
+        {
+          "actionId": 2,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/sprit.png",
+          "title": "Beauty"
+        },
+
+        {
+          "actionId": 3,
+          "deeplink": "",
+          "icon": "lib/assets/images/shop/electronics.png",
+          "title": "Books & Gifts"
+        },
+        {
+          "actionId": 4,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/electronics.png",
+          "title": "Electronics"
+        },
+        {
+          "actionId": 5,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/top offers.png",
+          "title": "Footwear"
+        },
+        {
+          "actionId": 6,
+          "deeplink": "",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Jewellery"
+        },
+        {
+          "actionId": 7,
+          "deeplink": "",
+          "icon": "lib/assets/images/duty_free/confectionary.png",
+          "title": "Kids"
+        }
+      ]
+    },
+    "airportShopList": {
+      "widgetType": "verticalScrollTile",
+      "gridColumn": 2,
+      "aspectRatio": 1.4,
+      "title": "",
+      "subTitle": "",
+      "items": [
+        {
+          "actionId": 0,
+          "deeplink": "",
+          "banner": "lib/assets/images/shop/apprel1.jpeg",
+          "icon": "lib/assets/images/duty_free/beauty.png",
+          "title": "Manyavar",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 1,
+          "deeplink": "",
+          "banner": "lib/assets/images/duty_free/banner11.png",
+          "icon": "lib/assets/images/duty_free/fashion.png",
+          "title": "Lacoste",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 2,
+          "deeplink": "",
+          "banner": "lib/assets/images/shop/bath_soap.png",
+          "icon": "lib/assets/images/duty_free/confectionary.png",
+          "title": "Clinique",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 3,
+          "deeplink": "",
+          "banner": "lib/assets/images/shop/electronics1.jpeg",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Mac",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 4,
+          "deeplink": "",
+          "banner": "lib/assets/images/shop/accessories1.jpg",
+          "icon": "lib/assets/images/duty_free/fashion.png",
+          "title": "Wishful",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 5,
+          "deeplink": "",
+          "banner": "lib/assets/images/shop/mufti.jpeg",
+          "icon": "lib/assets/images/duty_free/beauty.png",
+          "title": "Mufti",
+          "address": "Terminal 2  |  Level 0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2495 @@
+{
+  "name": null,
+  "path": "main",
+  "elements": [
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.328,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/1x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "sliderBanner_1dot2Pager",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0.0,
+          "backgroundColor": "0xff352980",
+          "subItemWidth": 0.96,
+          "gridColumn": 0,
+          "aspectRatio": 0.6517,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 30.0
+          },
+          "subItemMargin": {
+            "left": 16.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Flight Status",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/banner.png",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Flight Booking",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/banner.png",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight-booking?isapp=true",
+              "uniqueId": "0",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Mweb-Offer-Page-Flight-1.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "DutyFree",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/banner.png",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/duty-free?isapp=true",
+              "uniqueId": "2",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Mumbai-MWEB/MWeb_OfferPage_Duty-Free6.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Book Flight",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/banner.png",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight-booking?isapp=true",
+              "uniqueId": "0",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Mumbai-MWEB/MWeb_ZeroConvenience-fee.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Rewards",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/banner.png",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/loyalty-rewards?isapp=true",
+              "uniqueId": "7",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/In-Dependence--Day-2022/Indepence-Day_Adani-Rewards-MWeb.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.1706,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/2x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "7cc66bb8-f616-4997-8e58-4be3f3833bb0",
+      "componentName": "AirportServicesJSON",
+      "dataSource": "{D1D2F19A-D866-4F2A-B3E3-9F5BBB2E1F67}",
+      "params": {
+        "Widget": "{79F5B1F0-C8D8-4581-87AF-9F7BB50DD53F}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 1,
+          "widgetType": "grid",
+          "title": "All Services",
+          "subTitle": "Booking",
+          "gridConfiguration": {
+            "crossAxisSpacing": 10,
+            "mainAxisSpacing": 10,
+            "itemVisibility": 3.2,
+            "horizontalGrid": true
+          },
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 2,
+          "height": 0,
+          "aspectRatio": 1.7717,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 10.0,
+            "right": 10.0,
+            "bottom": 0.0,
+            "top": 40.0
+          },
+          "tabConfiguration": {
+            "tabColor": "0x66b74093",
+            "tabSelectedColor": "0x66b74093",
+            "tabTextSelectedColor": "0xffffffff",
+            "tabTextColor": "0x66ffffff"
+          },
+          "backgroundColor": "0x66b74093",
+          "gradientConfiguration": {
+            "gradientColors": [
+              "0xff1a184b",
+              "0xffb54296"
+            ],
+            "gradientBegin": "topCenter",
+            "gradientEnd": "bottomCenter"
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 10,
+            "deeplink": "",
+            "name": "action Item 1"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "imageSrc": "lib/assets/images/airports/home/flight-booking.png",
+              "isAirportSelectNeeded": false,
+              "title": "Book Flights",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight-booking?isapp=true",
+              "uniqueId": "0",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Flight-booking--2.jpg",
+              "tagName": {
+                "name": "Domestic",
+                "backgroundColor": "",
+                "textColor": ""
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/duty-free.png",
+              "isAirportSelectNeeded": false,
+              "title": "Duty Free",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free?isapp=true",
+              "uniqueId": "2",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Duty-Free--4.jpg",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/flight-status.png",
+              "isAirportSelectNeeded": false,
+              "title": "Flight Status",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate=05062022&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Flight-Status--2.jpg",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/shopping.png",
+              "isAirportSelectNeeded": false,
+              "title": "Shopping",
+              "ctaUrl": "",
+              "sortorder": 0,
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Shopping--2.jpg",
+              "tagName": {
+                "name": "Coming Soon",
+                "backgroundColor": "",
+                "textColor": ""
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/pranaam.png",
+              "isAirportSelectNeeded": false,
+              "title": "Pranaam Service",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/pranaam?isapp=true",
+              "uniqueId": "",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Pranaam--2.jpg",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/cabs.png",
+              "isAirportSelectNeeded": false,
+              "title": "Cabs",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/taxi-and-cabs?isapp=true",
+              "uniqueId": "",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Cab--2.jpg",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/food-&-beverages.png",
+              "isAirportSelectNeeded": false,
+              "title": "Food & Beverages",
+              "ctaUrl": "",
+              "uniqueId": "",
+              "sortorder": 0,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Services/DesktopandM-Web/Food-and-beverages--2.jpg",
+              "tagName": {
+                "name": "Coming Soon",
+                "backgroundColor": "",
+                "textColor": ""
+              }
+            },
+            {
+              "imageSrc": "lib/assets/images/airports/home/view-all.png",
+              "isAirportSelectNeeded": false,
+              "title": "View All",
+              "ctaUrl": "",
+              "uniqueId": "100",
+              "sortorder": 0,
+              "mobileImage": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.208,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/3x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "2c786a46-8a53-4827-9af6-e549344da7f4",
+      "componentName": "BestSellerDutyFreeJSON",
+      "dataSource": "{BBB5CD01-19DC-443F-B874-D42AB207607D}",
+      "params": {
+        "Widget": "{EFB4467F-FCF1-4C18-A8CE-176E92867106}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 7,
+          "widgetType": "tabs_slider",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.7,
+          "gridColumn": 0,
+          "aspectRatio": 0.9,
+          "borderRadius": 0.0,
+          "tabConfiguration": {
+            "tabColor": "0x66b74093",
+            "tabSelectedColor": "0x66b74093",
+            "tabTextSelectedColor": "0xffFFFFFF",
+            "tabTextColor": "0x66FFFFFF"
+          },
+          "backgroundColor": "0x66b74093",
+          "gradientConfiguration": {
+            "gradientColors": [
+              "0xff1a184b",
+              "0xffb54296"
+            ],
+            "gradientBegin": "topCenter",
+            "gradientEnd": "bottomCenter"
+          },
+          "itemMargin": {
+            "left": 16.0,
+            "right": 0.0,
+            "bottom": 16.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Departure T2",
+              "apiUrl": "api/GetDutyFreeProducts",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "popular": false,
+              "newArrival": false,
+              "showOnHomepage": false,
+              "skuCode": "21F07831,08F02301,05A02090,06A05385,09B02621,21F02217,08F03244,06A04785,05A02617,06A02225",
+              "storeType": "departure"
+            },
+            {
+              "title": "Arrival T2",
+              "apiUrl": "api/GetDutyFreeProducts",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "popular": false,
+              "newArrival": false,
+              "showOnHomepage": false,
+              "skuCode": "05A02090,05A02617,06A05385,06A02225,06A03264",
+              "storeType": "departure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.274,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/4x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "1ef954d2-f879-4cf6-aad4-294b5c0d4e04",
+      "componentName": "HeroCarousel",
+      "dataSource": "{84B34B0A-4697-4A4E-B1AE-62C4B980270D}",
+      "params": {
+        "widget": "{0CDF5DF5-AC33-4C8F-8228-D76857A731F0}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 3,
+          "widgetType": "sliderBanner_1dot2Text",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.75,
+          "gridColumn": 0,
+          "aspectRatio": 1.6,
+          "borderRadius": 0.0,
+          "backgroundColor": "0xff352980",
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 10.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Chocolates",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Chocolates1.jpg",
+              "description": "",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free/Confectionery/Chocolates",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "",
+              "materialGroup": "Confectionery",
+              "category": "Chocolates",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Chocolates1.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "chocolate",
+              "uniqueId": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free/Confectionery/Chocolates",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Fragrances",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Fragrances1.jpg",
+              "description": "",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "",
+              "materialGroup": "Beauty",
+              "category": "Fragrances",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Fragrances1.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Bags",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Bags1.jpg",
+              "description": "",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "",
+              "materialGroup": "Fashion",
+              "category": "SmallLeather",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/Bags1.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Skin care",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/SkinCare1.jpg",
+              "description": "",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "",
+              "materialGroup": "Beauty",
+              "category": "SkinCare",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Foundation/Adani/Dutyfree/DutyFreeCarousal/Collections/SkinCare1.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.274,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/5x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "63304e3a-6ed1-4031-a8d6-7309a0317402",
+      "componentName": "CommutingToAirportJSON",
+      "dataSource": "{AC29B890-813A-43ED-805B-A51E568C4C14}",
+      "params": {
+        "Widget": "{66029ABB-9122-45CE-8C8A-066C25473A24}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 1,
+          "widgetType": "imageTextList",
+          "title": "",
+          "subTitle": "",
+          "backgroundColor": "0xff352980",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.7,
+          "gridColumn": 0,
+          "aspectRatio": 0.65,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemColors": {
+            "titleColor": "0xff222222",
+            "subTitleColor": "0xff222222",
+            "descriptionColor": "0xff222222",
+            "ctaColor": "0xff222222",
+            "backGroundColor": "0xffffffff"
+          },
+          "subItemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Transport",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Commuting/Transport.png",
+              "btnText": "",
+              "description": "CSMIA is located in the Santa Cruz (east) area of Mumbai. The area is easily accessible by road, and one could take a taxi or auto to get here.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/transport?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Commuting/Transport.png",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_travelling_to_and_from_mumbai_transport_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Cabs",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Commuting/Cabs.png",
+              "btnText": "",
+              "description": "Various car rental services are available to commute within the city. For the convenience of the passengers, CSMIA has tied up with various service providers.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/taxi-and-cabs?isapp=true",
+              "uniqueId": "8",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Commuting/Cabs.png",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_travelling_to_and_from_mumbai_cabs_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.2,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/6x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "d98f6eaf-04ca-465b-8cc1-154102afdff7",
+      "componentName": "ExperienceMumbaiAirportJSON",
+      "dataSource": "{0AB10C0E-94F0-4E44-A0D0-6CBEFE3A079D}",
+      "params": {
+        "Widget": "{858741A4-2F85-45DB-A988-E57DADCA50AB}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 3,
+          "widgetType": "experienceAirportWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.69,
+          "gridColumn": 0,
+          "aspectRatio": 1.2,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "gradientConfiguration": {
+            "gradientColors": [
+              "0xff1a184b",
+              "0xffb54296"
+            ],
+            "gradientBegin": "topCenter",
+            "gradientEnd": "bottomCenter"
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Artbeat of New India",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Experience/Museum-Other.png",
+              "btnText": "",
+              "description": "With more than 5,500 artefacts, it offers a peek into the glorious past of Mumbai and India.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/artbeat-of-new-india?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Experience/Museum-Other.png",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_experience_mumbai_airport_jaya_he_museum_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Lounge",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Experience/Lounge-Other.png",
+              "btnText": "",
+              "description": "A place to put your feet up for some time before you board your flight.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/lounges?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Experience/Lounge-Other.png",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_experience_mumbai_airport_lounge_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Shopping",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Jaipur-Map-image/Experience-Jaipur-Airport/Shop--Othe.png",
+              "btnText": "",
+              "description": "Browse through a plethora of options to pick up last-minute gifts.",
+              "ctaUrl": "?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Jaipur-Map-image/Experience-Jaipur-Airport/Shop--Othe.png",
+              "subTitle": "Comingsoon",
+              "tagName": {
+                "name": "Coming Soon",
+                "backgroundColor": "0xFFFFD866",
+                "textColor": ""
+              },
+              "videoSrc": "",
+              "autoId": "data_experience_mumbai_airport_shopping_coming_soon",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Food & Beverages",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Jaipur-Map-image/Experience-Jaipur-Airport/Food-Beverages-Other.png",
+              "btnText": "",
+              "description": "Delectable munchies to satiate those hunger pangs as you wait to board.",
+              "ctaUrl": "",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Jaipur-Map-image/Experience-Jaipur-Airport/Food-Beverages-Other.png",
+              "subTitle": "Comingsoon",
+              "tagName": {
+                "name": "Coming Soon",
+                "backgroundColor": "0xFFFFD866",
+                "textColor": ""
+              },
+              "videoSrc": "",
+              "autoId": "data_experience_mumbai_airport_food_coming_soon",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.2,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/7x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "0eaf9994-d854-4e32-ae39-384d24630696",
+      "componentName": "HeroCarousel",
+      "dataSource": "{AA75BAA8-3328-4F61-BEC8-D86C33E4480A}",
+      "params": {
+        "widget": "{E58F82BD-7DD2-4A65-A346-AB4A8BA2F1FA}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 6,
+          "widgetType": "newInElectronics",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.64,
+          "gridColumn": 0,
+          "aspectRatio": 1.2,
+          "borderRadius": 0.0,
+          "backgroundColor": "0xff352980",
+          "subItemColors": {
+            "titleColor": "0xffffffff",
+            "subTitleColor": "0xffffffff",
+            "descriptionColor": "0xffffffff",
+            "ctaColor": "0xffffffff",
+            "backGroundColor": "0xffffffff"
+          },
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 16.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Flight Booking",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Flight-Booking_Flat-750.jpg",
+              "description": "Enjoy a welcome like no other! Coupon Code: FESTIVEFLY",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Flight-Booking_Flat-750.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "0",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Bank Offer",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Flight-Booking-Bank-Offer.jpg",
+              "description": "Enjoy cashback upto ₹1500 on a minimum transaction value of ₹4000 on flight booking.",
+              "descriptionApp": "",
+              "ctaLink": "http://csmia-mumbai-airport/flight-booking",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Flight-Booking-Bank-Offer.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Flight Booking",
+              "uniqueId": "0",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Confectionary",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free15_OffConfectionary_items.jpg",
+              "description": "Deals that'll make you want to shop non-stop.",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "Confectionery",
+              "category": "Chocolates",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free15_OffConfectionary_items.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Bank Offer",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Bank-Offer10off.jpg",
+              "description": "Spend money to earn money.",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Bank-Offer10off.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Know More",
+              "uniqueId": "2",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Flight Booking",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/FlighHigh.jpg",
+              "description": "Get 12% off up to INR 600. Coupon Code: FLYADL",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/flight-booking",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/FlighHigh.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Flight Booking",
+              "uniqueId": "0",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Beauty Products",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Duty-Free_Beauty-products-Recent.jpg",
+              "description": "Shop your heart out with amazing deals.",
+              "descriptionApp": "",
+              "ctaLink": "",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "Beauty",
+              "category": "Cosmetics",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Duty-Free_Beauty-products-Recent.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Toys",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free10_OffLego.jpg",
+              "description": "Offers so good, you won't be able to resist.",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free/others",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "Others",
+              "category": "Toys",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free10_OffLego.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Know More",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Duty Free",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Duty-Free_Flat-750-off.png",
+              "description": "Enjoy flat ₹750 off on your first transaction above ₹7,500. Use code WELCOMEDUTYFREE.",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "",
+              "category": "",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/Adani/Offers/Duty-Free_Flat-750-off.png",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Duty-Free",
+              "uniqueId": "2",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            },
+            {
+              "title": "Fragrances",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free15_OffFragrance.jpg",
+              "description": "Shop your heart out with amazing deals.",
+              "descriptionApp": "",
+              "ctaLink": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/duty-free/beauty/fragrances",
+              "appCtaLink": null,
+              "deepLink": "",
+              "subTitle": "Know More",
+              "materialGroup": "Beauty",
+              "category": "Fragrances",
+              "subCategory": "",
+              "brand": "",
+              "skuCode": "",
+              "storeType": "",
+              "restricted": false,
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/Offer_15_Aug_New_Changes/Duty_Free15_OffFragrance.jpg",
+              "webImage": null,
+              "thumbnailImage": "",
+              "bannerCondition": "",
+              "ctaText": "Know More",
+              "uniqueId": "",
+              "ctaUrl": "",
+              "linkTarget": "",
+              "autoId": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.17,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/2x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "8579f3da-ea4b-4194-b7c5-9a902d0e10f6",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{D5962B97-B82A-404D-8F5C-E5F6A564FF5C}",
+      "params": {
+        "Widget": "{20013373-588C-4C77-A41A-4B1D3C2E2080}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 1,
+          "widgetType": "image_text",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.7,
+          "gridColumn": 0,
+          "aspectRatio": 0.65,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 16.0,
+            "top": 16.0
+          },
+          "backgroundColor": "0xff352980",
+          "subItemColors": {
+            "titleColor": "0xffffffff",
+            "subTitleColor": "0xffffffff",
+            "descriptionColor": "0xffffffff",
+            "ctaColor": "0xffffffff",
+            "backGroundColor": "0xff352980"
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Baggage Delivery",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Baggage/BaggageDelivery.png",
+              "btnText": "",
+              "description": "Head straight to your appointments while we take the responsibility to deliver your baggage where you need it to be.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/baggage-delivery?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Baggage/BaggageDelivery.png",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.208,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/9x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "5005a968-02af-45d7-ac96-b17ad3be4ef6",
+      "componentName": "MoreServicesJSON",
+      "dataSource": "{A671A3E5-B402-48C1-9CAD-009DA84C9796}",
+      "params": {
+        "Widget": "{C7197291-63B3-44FE-B71A-661456D8AAD1}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 3,
+          "widgetType": "moreServices",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.64,
+          "gridColumn": 0,
+          "aspectRatio": 1.2,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 16.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "backgroundColor": "0xff352980",
+          "subItemColors": {
+            "titleColor": "0xffffffff",
+            "subTitleColor": "0xffffffff",
+            "descriptionColor": "0xffffffff",
+            "ctaColor": "0xffffffff",
+            "backGroundColor": "0xff352980"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Airport Guide",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Airport-Guide.jpg",
+              "btnText": "",
+              "description": "A comprehensive guide to make your travel more convenient whether arriving or departing.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/passenger-guide?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Airport-Guide.jpg",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_airportguide_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "ATMs",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/ATMs.jpg",
+              "btnText": "",
+              "description": "Multiple ATMs of different banks to ensure you always have access to cash.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/atm?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/ATMs.jpg",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_atms_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Baby Care Rooms",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Baby-Care-Rooms.jpg",
+              "btnText": "",
+              "description": "Well-equipped baby care rooms with changing and feeding facilities.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/baby-care?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Baby-Care-Rooms.jpg",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_babycare_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Medical Centre",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Medical-Center.jpg",
+              "btnText": "",
+              "description": "Medical centres with doctors, paramedics, and ICU ambulances for any medical emergencies.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/medical-centre?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/MoreServices/Medical-Center.jpg",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_medicalcenter_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Prayer Room",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/Other/Prayer-Room--Other.png",
+              "btnText": "",
+              "description": "Multi-faith prayer rooms to let you take a moment of spiritual bliss and peace.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/prayer-room?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/Other/Prayer-Room--Other.png",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_prayerroom_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            },
+            {
+              "title": "Special Assistance",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/Other/Special-Assistance-Facility--Other.png",
+              "btnText": "",
+              "description": "Assistance and advice for passengers with reduced mobility and special needs to make their journey extra comfortable.",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/csmia-mumbai-airport/services/special-assistance?isapp=true",
+              "uniqueId": "",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AirportServices/Mumbai-Service-Banner-Image/Other/Special-Assistance-Facility--Other.png",
+              "subTitle": "Know More",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "autoId": "data_more_services_special_assisstance_know_more",
+              "linkTarget": "",
+              "isAgePopup": false,
+              "tags": {
+                "bannerCategory": "",
+                "businessUnit": "",
+                "category": "",
+                "faqCategory": "",
+                "label": "",
+                "source": "",
+                "subCategory": "",
+                "type": "",
+                "eventName": ""
+              },
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "ef09a04b-ba86-4020-ba65-c2e8897663c5",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "{E482BC80-F39F-4276-B4CA-A1B26871A0EC}",
+      "params": {
+        "Widget": "{31242681-813D-4C84-A6D7-207358C61E3D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "image",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 0,
+          "subItemWidth": 0,
+          "gridColumn": 0,
+          "aspectRatio": 0.208,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "subItemMargin": {
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 0.0
+          },
+          "actionTitle": {
+            "actionId": 16,
+            "deeplink": "",
+            "name": "action Item 2"
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "lib/assets/images/airports/home/10x.gif",
+              "description": "",
+              "ctaUrl": "https://web-dev.adanidigitallabs.com/flight/service/search/BOM?flightType=Arrival&location=Mumbai&flightDate={CurrentDate}&Terminal=All?isapp=true",
+              "uniqueId": "6",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Airport/MumbaiAirport/Independance-Day/15Aug-New-WEB-banner/Mweb_CSMIA3.jpg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "a726c523-55a2-47f8-b0bd-dd0c940b969f",
+      "componentName": "HeroSliderJSON",
+      "dataSource": "",
+      "params": {
+        "Widget": "{AEC3FEA4-FD0F-49DD-9CDD-B9722D12B0C3}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 3,
+          "widgetType": "ourAirports",
+          "title": "Our Airports",
+          "subTitle": "",
+          "subItemRadius": 8.0,
+          "subItemWidth": 0.64,
+          "gridColumn": 0,
+          "aspectRatio": 1.0,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "subItemMargin": {
+            "left": 20.0,
+            "right": 0.0,
+            "bottom": 0.0,
+            "top": 20.0
+          },
+          "backgroundColor": "0xff352980",
+          "subItemColors": {
+            "titleColor": "0xffffffff",
+            "subTitleColor": "0xffffffff",
+            "descriptionColor": "0xffffffff",
+            "ctaColor": "0xffffffff",
+            "backGroundColor": "0xff352980"
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": []
+        }
+      }
+    },
+    {
+      "uid": "1f67ffa5-9da7-494d-bf6c-6556f7930a82",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{62FD41D8-22C6-4916-9124-08F4C6AAA430}",
+      "params": {
+        "Widget": "{0CF61827-2A93-46D5-B9EC-F07691C5444B}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Your Feedback",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/feedbackv2.svg",
+              "description": "Do you have any suggestions? We’d love to hear from you!",
+              "ctaUrl": "",
+              "uniqueId": "1002",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/feedbackv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "b472aa56-652f-44b6-88c6-9cf6842e1afd",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{AD90B9F2-44C4-48A3-BCF4-2D09C56FD83A}",
+      "params": {
+        "Widget": "{59D2CC4F-B042-42BA-A530-2BDF371BD43D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Rate Us!",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "description": "Love our App? Spread the word by rating us",
+              "ctaUrl": "",
+              "uniqueId": "1003",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "b472aa56-652f-44b6-88c6-9cf6842e1afd",
+      "componentName": "BaggageDeliveryJSON",
+      "dataSource": "{AD90B9F2-44C4-48A3-BCF4-2D09C56FD83A}",
+      "params": {
+        "Widget": "{59D2CC4F-B042-42BA-A530-2BDF371BD43D}"
+      },
+      "fields": {
+        "widget": {
+          "widgetId": 2,
+          "widgetType": "homeTileWidget",
+          "title": "",
+          "subTitle": "",
+          "subItemRadius": 6.0,
+          "subItemWidth": 0.0,
+          "gridColumn": 0,
+          "aspectRatio": 0.0,
+          "borderRadius": 0.0,
+          "itemMargin": {
+            "left": 16.0,
+            "right": 16.0,
+            "bottom": 0.0,
+            "top": 16.0
+          },
+          "subItemMargin": {
+            "left": 22.0,
+            "right": 22.0,
+            "bottom": 22.0,
+            "top": 22.0
+          },
+          "actionTitle": {
+            "actionId": 0,
+            "deeplink": "",
+            "name": ""
+          },
+          "carouselParam": null,
+          "widgetItems": [
+            {
+              "title": "Download App",
+              "isAirportSelectNeeded": false,
+              "imageSrc": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "description": "Love our App? Spread the word by rating us",
+              "ctaUrl": "",
+              "uniqueId": "1003",
+              "mobileImage": "https://web-dev.adanidigitallabs.com/-/media/Project/AdaniAirport/Footer/Rate-Usv2.svg",
+              "subTitle": "",
+              "tagName": {
+                "name": null,
+                "backgroundColor": null,
+                "textColor": null
+              },
+              "videoSrc": "",
+              "contactDetail": {
+                "phone": null,
+                "email": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

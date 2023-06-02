@@ -1,0 +1,117 @@
+{
+  "images": [
+    "lib/assets/images/airport/duty_free/wine3.png",
+    "lib/assets/images/airport/duty_free/wine2.png"
+  ],
+  "product_name": "Chivas Regal 25 yrs Old 100 cl",
+  "actual_price": 3500,
+  "discounted_price": 3150,
+  "best_offers": [
+    "Buy 1 Get 20 CL Free",
+    "Buy 1 save 10%"
+  ],
+  "cashback_offers": [
+    "Get ₹50 cashback with Adani ICICI Credit Card",
+    "10% Instant Saving on Citi & Debit Card"
+  ],
+  "specification": [
+    {
+      "type": "Brand",
+      "content": "Chivas"
+    },
+    {
+      "type": "Country of Origin",
+      "content": "Scotland"
+    },
+    {
+      "type": "Size",
+      "content": "100 cl"
+    },
+    {
+      "type": "Alcohol Volume",
+      "content": "100 cl"
+    }
+  ],
+  "other_detail": [
+    {
+      "type": "GSTIN",
+      "content": "05000267117584"
+    },
+    {
+      "type": "Barcode",
+      "content": "EAN-13"
+    },
+    {
+      "type": "Target Market",
+      "content": "WOR"
+    }
+  ],
+  "description": [
+    {
+      "type": "",
+      "content": "Chivas Regal 25 Years is a blend of many different malt and grain Scotch whiskies, matured for at least 25 years. This rich, smooth blend combines style with substance and tradition. "
+    },
+    {
+      "type": "Taste",
+      "content": "Chivas Regal 25 Years is Radiant, warm amber in color and is an aromatic infusion of wild herbs, heather, honey and orchard fruits. Rich and fruity, Chivas bursts with the smooth taste of ripe, honeyed apples, and notes of vanilla, hazelnut and butterscotch."
+    }
+  ],
+  "similar_products": [
+    {
+      "images": [
+        "lib/assets/images/duty_free/johnnie-walker.png",
+        "lib/assets/images/duty_free/jack-daniels.png"
+      ],
+      "product_name": "Johnnie Walker Red Label 100 cl ",
+      "actual_price": 1600,
+      "discounted_price": 1200
+    },
+    {
+      "images": [
+        "lib/assets/images/duty_free/listing/glenlivet_single.png",
+        "lib/assets/images/airport/duty_free/wine3.png"
+      ],
+      "product_name": "The Glenlivet Single Malt 100 cl",
+      "actual_price": 5500,
+      "discounted_price": 5000
+    },
+    {
+      "images": [
+        "lib/assets/images/duty_free/jack-daniels.png",
+        "lib/assets/images/duty_free/johnnie-walker.png"
+      ],
+      "product_name": "Jack Daniels, Jennesse Whiskey 100 cl",
+      "actual_price": 2000,
+      "discounted_price": 1800
+    }
+  ],
+  "combo_pack_deals": [
+    {
+      "images": [
+        "lib/assets/images/duty_free/combo1.png",
+        "lib/assets/images/duty_free/perfume_combo1.png"
+      ],
+      "product_name": "Toblerone tiny bag 200gm + Absolut Vodka Plain 100 cl",
+      "actual_price": 1949,
+      "discounted_price": null
+    },
+    {
+      "images": [
+        "lib/assets/images/duty_free/perfume_combo1.png",
+        "lib/assets/images/duty_free/perfume_combo2.png"
+      ],
+      "product_name": "Calvin Klein one perfume + Calvin Klein Watch For men",
+      "actual_price": 15499,
+      "discounted_price": null
+    },
+    {
+      "images": [
+        "lib/assets/images/duty_free/belt_combo.png",
+        "lib/assets/images/jack-daniels.png"
+      ],
+      "product_name": "Calvin Klein Belt for men + Calvin Klein Watch",
+      "actual_price": 1600,
+      "discounted_price": null
+    }
+  ]
+}

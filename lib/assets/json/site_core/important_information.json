@@ -1,0 +1,39 @@
+{
+  "name": null,
+  "path": "main",
+  "elements": [
+    {
+      "uid": "ab4c6188-0650-42e5-98c8-1dfbda752d64",
+      "componentName": "Custom Content JSON rendering",
+      "dataSource": "{4E217DBC-50CE-4B34-AF11-375E032E7219}",
+      "params": {},
+      "fields": {
+        "contentList": [
+          {
+            "title": "Important Information",
+            "lines": [
+              {
+                "line": "Pranaam Officer will contact you prior to service time on the travel date.",
+                "links": []
+              },
+              {
+                "line": "Please look for the Pranaam Officer holding your name placard at the agreed meeting point.",
+                "links": []
+              },
+              {
+                "line": "Pranaam Service booking is governed by the cancellation policy.",
+                "links": [
+                  {
+                    "link": "Read more",
+                    "linkText": "Read more",
+                    "linkURL": "https://web-dev.adanidigitallabs.com/Pranaam/TermsandConditions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

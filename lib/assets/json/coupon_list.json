@@ -1,0 +1,28 @@
+{
+  "couponListData": [
+    {
+      "name": "Swiggy",
+      "icon": "https://images.moneycontrol.com/static-mcnews/2018/03/Amazon-1.jpg",
+      "couponCode": "HELLO30",
+      "couponDescription": "Vaild on order with items worth ₹100 or more. View Details Vaild on order with items worth ₹100 or more. View Details Vaild on order with items worth ₹100 or more. View Details Vaild on order with items worth ₹100 or more. View Details Vaild on order with items worth ₹100 or more. View Details Vaild on order with items worth ₹100 or more. View Details",
+      "couponName": "Zippk",
+      "couponTitle": "Get 50% OFF up to ₹200 + Free delivery using Simpl"
+    },
+    {
+      "name": "Swiggy",
+      "icon": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/coca-cola-logo.png",
+      "couponCode": "HELLO30 TT",
+      "couponDescription": "Vaild on order with items worth ₹100 or more. View Details",
+      "couponName": "Zippk",
+      "couponTitle": "Get 50% OFF up to ₹200 + Free delivery using Simpl"
+    },
+    {
+      "name": "Swiggy",
+      "icon": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "couponCode": "HELLO30",
+      "couponDescription": "Vaild on order with items worth ₹100 or more. View Details",
+      "couponName": "Zippk",
+      "couponTitle": "Get 50% OFF up to ₹200 + Free delivery using Simpl"
+    }
+  ]
+}

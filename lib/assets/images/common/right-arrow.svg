@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Group 6 Copy 2</title>
+    <g id="Flight-Booking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="1-Payments--home-Rewards-unchecked--one-way" transform="translate(-348.000000, -210.000000)" stroke="#333333" stroke-width="1.5">
+            <g id="Group-6-Copy-2" transform="translate(351.895000, 217.105000) rotate(-90.000000) translate(-351.895000, -217.105000) translate(345.895000, 214.000000)">
+                <line x1="6.00144828" y1="0.208448276" x2="0.205448276" y2="6.00155172" id="Line-2" transform="translate(3.103448, 3.105000) scale(-1, -1) rotate(90.000000) translate(-3.103448, -3.105000) "></line>
+                <line x1="11.7945517" y1="0.208448276" x2="5.99855172" y2="6.00155172" id="Line-2-Copy" transform="translate(8.896552, 3.105000) scale(-1, 1) rotate(-90.000000) translate(-8.896552, -3.105000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>

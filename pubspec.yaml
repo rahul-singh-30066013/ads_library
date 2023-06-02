@@ -38,6 +38,7 @@ dependencies:
   firebase_database: ^9.0.13
   provider: ^6.0.2
   http: ^0.13.4
+  insuideindoor: ^1.1.27
 
 
 dev_dependencies:
@@ -61,8 +62,17 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  # assets:
-    # - lib/assets/json/
+  assets:
+      - assets/fill/cat_silhouette_pattern.png
+      - assets/symbols/custom-icon.png
+      - assets/symbols/2.0x/custom-icon.png
+      - assets/symbols/3.0x/custom-icon.png
+      - assets/style.json
+      - assets/sydney.png
+      - assets/config/
+      - assets/json/
+      - assets/images/
+      - assets/symbols/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

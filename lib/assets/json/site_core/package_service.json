@@ -1,0 +1,345 @@
+{
+  "uid": "ba80a356-499a-45e9-93f5-12fc53b18c4e",
+  "componentName": "Packages",
+  "dataSource": "{A0323420-ABED-4BEC-A1FC-D91BC226611F}",
+  "params": {},
+  "fields": {
+    "data": [
+      {
+        "packageId": "180",
+        "packageName": "Elite",
+        "isRecommended": true,
+        "servicesList": [
+          {
+            "name": "Coordination with Customer",
+            "value": false
+          },
+          {
+            "name": "Assistance with boarding",
+            "value": true
+          },
+          {
+            "name": "Car Drop off point",
+            "value": true
+          },
+          {
+            "name": "Dedicated porter",
+            "value": false
+          },
+          {
+            "name": "Food and Non Alcoholic Beverages",
+            "value": true
+          },
+          {
+            "name": "Gate transfer on Golf Cart",
+            "value": true
+          },
+          {
+            "name": "Guidance with the Security Check",
+            "value": false
+          },
+          {
+            "name": "GVK Lounge",
+            "value": false
+          },
+          {
+            "name": "Porter for check in",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          }
+        ]
+      },
+      {
+        "packageId": "175",
+        "packageName": "Platinum",
+        "isRecommended": false,
+        "servicesList": [
+          {
+            "name": "Coordination with Customer",
+            "value": false
+          },
+          {
+            "name": "Assistance with boarding",
+            "value": true
+          },
+          {
+            "name": "Car Drop off point",
+            "value": false
+          },
+          {
+            "name": "Dedicated porter",
+            "value": true
+          },
+          {
+            "name": "Food and Non Alcoholic Beverages",
+            "value": true
+          },
+          {
+            "name": "Gate transfer on Golf Cart",
+            "value": false
+          },
+          {
+            "name": "Guidance with the Security Check",
+            "value": false
+          },
+          {
+            "name": "GVK Lounge",
+            "value": false
+          },
+          {
+            "name": "Porter for check in",
+            "value": true
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          }
+        ]
+      },
+      {
+        "packageId": "61",
+        "packageName": "Express Pranaam Elite",
+        "isRecommended": true,
+        "servicesList": [
+          {
+            "name": "Coordination with Customer",
+            "value": true
+          },
+          {
+            "name": "Assistance with boarding",
+            "value": false
+          },
+          {
+            "name": "Car Drop off point",
+            "value": false
+          },
+          {
+            "name": "Dedicated porter",
+            "value": false
+          },
+          {
+            "name": "Food and Non Alcoholic Beverages",
+            "value": false
+          },
+          {
+            "name": "Gate transfer on Golf Cart",
+            "value": true
+          },
+          {
+            "name": "Guidance with the Security Check",
+            "value": false
+          },
+          {
+            "name": "GVK Lounge",
+            "value": true
+          },
+          {
+            "name": "Porter for check in",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          }
+        ]
+      },
+      {
+        "packageId": "150",
+        "packageName": "IXE Elite Test Mobile",
+        "isRecommended": false,
+        "servicesList": [
+          {
+            "name": "Coordination with Customer",
+            "value": true
+          },
+          {
+            "name": "Assistance with boarding",
+            "value": false
+          },
+          {
+            "name": "Car Drop off point",
+            "value": false
+          },
+          {
+            "name": "Dedicated porter",
+            "value": false
+          },
+          {
+            "name": "Food and Non Alcoholic Beverages",
+            "value": false
+          },
+          {
+            "name": "Gate transfer on Golf Cart",
+            "value": true
+          },
+          {
+            "name": "Guidance with the Security Check",
+            "value": false
+          },
+          {
+            "name": "GVK Lounge",
+            "value": true
+          },
+          {
+            "name": "Porter for check in",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          }
+        ]
+      },
+      {
+        "packageId": "111",
+        "packageName": "Pranaam UAT Reschedule 0",
+        "isRecommended": false,
+        "servicesList": [
+          {
+            "name": "Coordination with Customer",
+            "value": true
+          },
+          {
+            "name": "Assistance with boarding",
+            "value": false
+          },
+          {
+            "name": "Car Drop off point",
+            "value": false
+          },
+          {
+            "name": "Dedicated porter",
+            "value": false
+          },
+          {
+            "name": "Food and Non Alcoholic Beverages",
+            "value": false
+          },
+          {
+            "name": "Gate transfer on Golf Cart",
+            "value": true
+          },
+          {
+            "name": "Guidance with the Security Check",
+            "value": false
+          },
+          {
+            "name": "GVK Lounge",
+            "value": true
+          },
+          {
+            "name": "Porter for check in",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          },
+          {
+            "name": "Warm Welcome",
+            "value": false
+          }
+        ]
+      }
+    ]
+  }
+}

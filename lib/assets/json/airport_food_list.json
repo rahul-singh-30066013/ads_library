@@ -1,0 +1,119 @@
+{
+  "airportShop":{
+    "airportShopCategory": {
+      "widgetType": "horizontalScrollTile",
+      "gridColumn": 2,
+      "aspectRatio": 1.4,
+      "title": "",
+      "subTitle": "",
+      "items": [
+        {
+          "actionId": 0,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/food-card1.png",
+          "title": "Snacks"
+        },
+        {
+          "actionId": 1,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/rice2.png",
+          "title": "Cafe"
+        },
+
+        {
+          "actionId": 6,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/drink.png",
+          "title": "Beverage"
+        },
+        {
+          "actionId": 2,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/choco.png",
+          "title": "Quick Bites"
+        },
+        {
+          "actionId": 3,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/rice.png",
+          "title": "Dining"
+        },
+        {
+          "actionId": 4,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/drink.png",
+          "title": "Bar"
+        },
+        {
+          "actionId": 5,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/subway.png",
+          "title": "Fast Food"
+        },
+        {
+          "actionId": 7,
+          "deeplink": "",
+          "icon": "lib/assets/images/food/icecream.png",
+          "title": "Ice cream"
+        }
+      ]
+    },
+    "airportShopList": {
+      "widgetType": "verticalScrollTile",
+      "gridColumn": 2,
+      "aspectRatio": 1.4,
+      "title": "",
+      "subTitle": "",
+      "items": [
+        {
+          "actionId": 0,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/CCD.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Café Coffee Day",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 1,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/starbucks.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Starbucks",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 2,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/vaango-banner.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Haldiram’s",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 3,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/baker-street-banner.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Baker Street",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 4,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/chai-station.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Chai Point",
+          "address": "Terminal 2  |  Level 0"
+        },
+        {
+          "actionId": 5,
+          "deeplink": "",
+          "banner": "lib/assets/images/food/banner.png",
+          "icon": "lib/assets/images/shop/top_offers.png",
+          "title": "Subway",
+          "address": "Terminal 2  |  Level 0"
+        }
+      ]
+    }
+  }
+}

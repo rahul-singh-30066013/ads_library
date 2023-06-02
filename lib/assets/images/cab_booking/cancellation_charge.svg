@@ -1,0 +1,15 @@
+<!--
+  - Copyright (c) 2022 .
+  - All rights reserved.
+  - Adani Digital Labs Confidential Information
+  -->
+
+<svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path
+            d="M6 14.96h3a1 1 0 1 0 0-2H6a1 1 0 0 0 0 2zm12-10H4a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3zm1 12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-6h16v6zm0-8H3v-1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v1z"
+            fill="#666" />
+        <path d="M5 12h5v3H5zM23.46 19.8l-2.121 2.12L1.54 2.121 3.661.001z" fill="#F4F9FF" />
+        <path d="m1.5 2.46 19.172 19.172" stroke="#666" stroke-linecap="round" stroke-width="2" />
+    </g>
+</svg>
